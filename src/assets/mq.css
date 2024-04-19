@@ -39,6 +39,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .project-section {
+        padding: var(--md-2);
+    }
     .data-header {
         flex-direction: column-reverse;
         padding: 20px 20px 0;
