@@ -93,7 +93,7 @@ export default {
                     :key="objective">{{ objective }}</li>
                 </ul>
             </div>
-            <div class="dataCard" id="links">
+            <div class="dataCard" id="links" v-if="project.links">
                 <div class="dataCard-title">
                     <h3>Project Links</h3>
                 </div>
@@ -129,8 +129,8 @@ export default {
                 </div>
                 <div class="data-visual">
                     <img 
-                    v-bind:alt="project.overviewImg" v-if="project.overviewImg" 
-                    :src="project.overviewCap" />
+                    v-bind:alt="project.overviewCap" v-if="project.overviewImg" 
+                    :src="project.overviewImg" />
                     <iframe
                         v-if="project.overviewFrame"
                         :src="project.overviewFrame"
@@ -142,26 +142,26 @@ export default {
             </div>
         </div>
 
-        <!-- research & approach -->
+        <!-- method & approach -->
         <div class="data-section">
             <div class="data-wrap">
                 <div class="data-content">
-                    <h3>Research & Approach</h3>
+                    <h3>Method</h3>
                     <div class="copy-wrapper">
-                        <p v-for="project in project.research" :key="project">{{ project }}</p>
+                        <p v-for="project in project.method" :key="project">{{ project }}</p>
                     </div>
                 </div>
                 <div class="data-visual">
                     <img
-                    v-bind:alt="project.researchCap" v-if="project.researchImg" 
-                    :src="project.researchImg" />
+                    v-bind:alt="project.methodCap" v-if="project.methodImg" 
+                    :src="project.methodImg" />
                     <iframe
-                        v-if="project.researchFrame"
-                        :src="project.researchFrame"
+                        v-if="project.methodFrame"
+                        :src="project.methodFrame"
                         allowfullscreen
                     ></iframe>
                     
-                    <p>{{ project.researchCap }}</p>
+                    <p>{{ project.methodCap }}</p>
                 </div>
             </div>
         </div>
@@ -185,7 +185,7 @@ export default {
                         allowfullscreen
                     ></iframe>
                     
-                    <p>{{ project.researchCap }}</p>
+                    <p>{{ project.outcomeCap }}</p>
                 </div>
             </div>
         </div>

@@ -1,10 +1,10 @@
 .project-page {
-    /* margin-top: 68px; */
+    margin-top: 64px;
 }
 
-.navbar:has(+ .project-page) {
+.navbar:has(+ * + .project-page) {
     padding: var(--xs) var(--xl) 0px var(--xl);
-    height: 58px;
+    height: 54px;
     overflow: hidden;
     z-index: 101;
     transition: 0.2s ease-in-out;
@@ -24,6 +24,9 @@
     align-items: flex-start;
     justify-content: space-between;
     gap: var(--md);
+    max-width: 1200px;
+    margin: 0 auto;
+
     .header-content {
         display: flex;
         max-width: 400px;
@@ -51,7 +54,10 @@
     padding: var(--xl) var(--xxl);
     align-items: flex-start;
     gap: var(--lg);
-    align-self: stretch;
+    align-items: stretch;
+    max-width: 1200px;
+    margin: 0 auto;
+
     
     .dataCard {
         display: flex;
@@ -67,7 +73,13 @@
             font-size: 16px;
         }
         ul {
-            padding: 0 var(--md) var(--sm);
+            padding: 0 var(--md) 0;
+            margin: 0;
+            li {
+                margin: 0 0 20px;
+            }
+        }
+        p {
             margin: 0;
         }
         .dataCard-title {

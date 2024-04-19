@@ -34,7 +34,6 @@
     }
     a {
         font-weight: 700;
-        letter-spacing: 1px;
         color: var(--neutral-1);
         display: flex;
         padding: var(--sm) var(--xs);

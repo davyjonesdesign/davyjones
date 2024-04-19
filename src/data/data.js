@@ -1,5 +1,5 @@
 const data = [
-  // WikiUI redesign
+  // NLN Application
   {
     alias: 'nln-application-transformation',
     title: 'NLN Application Transformation',
@@ -49,14 +49,14 @@ const data = [
     overviewFrame: 'https://indd.adobe.com/embed/c54b6d93-81a4-4064-9c2f-db3f30b32db9?startpage=1&allowFullscreen=false',
     overviewCap: 'PNW\'s full NLN application online publication',
 
-    // Research/Approach
-    research: [
+    // Method
+    method: [
       'I started by digging into what didn\'t work in the previous application, focusing on layout, readability, and overall appeal. Then, I developed a solid design plan. I carefully chose typography to make sure everything was easy to read and organized the content in a way that flowed well. Using Purdue\'s branding guidelines, I kept everything consistent and visually appealing.',
       'Throughout the process, I listened to feedback from the Dean and faculty, making adjustments to ensure the application reflected Purdue\'s strengths. This collaborative effort resulted in a visually engaging document that effectively told Purdue\'s story and secured the Center of Excellence designation.'
     ],
-    researchImg:
+    methodImg:
           'https://davyjonesdesign.github.io/data-for-axios/assets/nln-app/PNW-app-2.jpg',
-    researchCap: 'More internal pages from PNW\'s NLN application',
+    methodCap: 'More internal pages from PNW\'s NLN application',
 
     // Outcome
     outcome: [
@@ -115,15 +115,15 @@ const data = [
     overviewFrame: 'https://mega.nz/embed/WgxGUYia#QHH4sDRX01Uqjimn9bfLMLI-qQ6_U6ewGkg7aKen_H8',
     overviewCap: 'Video walkthrough of \'WikiUI\' initial Design System as of Feb 5, 2024.',
 
-    // Research/Approach
-    research: [
+    // Method
+    method: [
       'To ensure a user-centered design, I seek ongoing feedback from social media communities (LinkedIn, Instagram) and draw inspiration from UX best practices, with chatGPT serving as a model for its clean and simple design.',
       'In the design phase, I made the search bar more accessible at the bottom of the screen for easier thumb tapping. Tertiary content was organized in a menu to streamline the landing page, and iconography was revamped for a consistent style within the new design system.',
       'The color palette, tailored for both light and dark modes, ensures a clear and consistent user experience, prioritizing readability and comfort. These design decisions aim to enhance the usability of Wikipedia.org while preserving its familiar functionality.'
     ],
-    researchFrame:
+    methodFrame:
           'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FjsPEUc856jJXDK2ZiRyuWX%2FwikiUI%3Ftype%3Ddesign%26node-id%3D29%253A1017%26mode%3Ddesign%26t%3DZyLXBVIa3RZY5iUs-1',
-    researchCap: 'The emerging Figma design system - \'WikiUI\'',
+    methodCap: 'The emerging Figma design system - \'WikiUI\'',
 
     // Outcome
     outcome: [
@@ -132,6 +132,122 @@ const data = [
     ],
     outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/wikiUI/wikiUI-proto-2.gif',
     outcomeCap: 'Wikipedia\'s initial UX/UI redesign prototype, showing the landing page. mobile menu interactions, and dark mode mini user journey.'
+  },
+
+  // Breakfast mural
+  {
+    alias: 'breakfast-mural',
+    title: 'Breakfast Mural: Illustrative Typography',
+    subtitle:
+        'I tackled a mural project during my Typography course, where I got to play with hand-drawn elements to represent the word "breakfast" in a creative way.',
+    duration: 'Spring 2021',
+
+    // tags
+    tag: [
+      'Illustration'
+    ],
+
+    // main img
+    mainImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/breakfast/breakfast-mural-mockup.jpg',
+    mainCap: 'A cafe mockup of the Breakfast mural, an adventure in illustrative typography',
+
+    // objectives
+    objectives: [
+      'To explore new perspectives on typography, balancing legibility with personality.',
+      'To create a visually engaging mural that effectively communicates the concept of "breakfast."'
+    ],
+
+    // toolbox
+    tools: [
+      'Figma',
+      'Adobe Illustrator'
+    ],
+
+    // Overview
+    overview: [
+      'For this assignment, I dove into the challenge of turning the word "breakfast" into a visual feast. Each letter was transformed into a unique breakfast item, aiming to capture the joyful and hearty essence of a morning meal.'
+    ],
+    overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/breakfast/breakfast-rectangle.jpg',
+    overviewCap: 'The full and final composition of the breakfast illustrative typography',
+
+    // Method
+    method: [
+      'Armed with paper and pencil, I sketched out different breakfast-themed illustrations, ranging from bacon strips to sunny-side-up eggs. After refining the sketches, I brought them to life digitally using Adobe Illustrator, ensuring they maintained their charm and clarity.'
+    ],
+    methodImg:
+          'https://davyjonesdesign.github.io/data-for-axios/assets/breakfast/breakfast-sketch.jpg',
+    methodCap: 'The original concept sketch for the breakfast mural',
+
+    // Outcome
+    outcome: [
+      'The finished mural struck the perfect balance between readability and creativity, leaving a memorable impression on viewers. This project not only honed my typography skills but also taught me the importance of injecting personality into design.'
+    ],
+    outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/breakfast/breakfast-mural-mockup.jpg',
+    outcomeCap: 'A cafe mockup of the Breakfast mural, an adventure in illustrative typography'
+  },
+
+  // Written in Stone
+  {
+    alias: 'motion-football-frenzy',
+    title: 'Football Frenzy Motion Design',
+    subtitle:
+        'A dynamic motion design piece exploring collage style animation in a soccer game scenario, aimed at delivering a compelling and entertaining experience.',
+    duration: 'Fall 2022',
+
+    // tags
+    tag: [
+      'Motion Graphic'
+    ],
+
+    // main img
+    mainImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/football-frenzy/JonedDavy_MotionDesign_SoccerCollage.gif',
+    mainCap: 'A GIF of the final Football Frenzy motion graphic',
+
+    // objectives
+    objectives: [
+      'Experiment with collage-style motion design',
+      'Create a short video that is compelling, fun, and entertaining',
+      'Develop skills in utilizing point of view and 3rd dimensional play in motion design'
+    ],
+
+    // links
+    links: [
+      {
+        link: 'https://youtu.be/YwCCgf-5vPQ',
+        linkDescription: 'Football Frenzy Video'
+      }
+    ],
+
+    // toolbox
+    tools: [
+      'Adobe Photoshop',
+      'Adobe After Effects',
+      'Adobe Audition'
+    ],
+
+    // Overview
+    overview: [
+      'For the Motion Design course, I embarked on creating "Football Frenzy Motion Design" to delve into the realm of collage-style animation. My aim was to construct a vibrant scene from a soccer game, utilizing a variety of collage pieces to depict the pitch, goals, ball, players, stands, and fans.',
+      'The project aimed to deliver a short video that not only showcased technical proficiency but also captivated the audience with its energy and creativity.'
+    ],
+    overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/football-frenzy/moodboard.jpg',
+    overviewCap: 'The moodboard I initially developed which lead a lot of the style of this project.',
+
+    // Method
+    method: [
+      'The creative process kicked off with moodboarding and storyboarding, setting the stage for the visual narrative to unfold. Armed with free images and a keen eye for detail, I meticulously crafted each element in Photoshop before integrating them into After Effects.',
+      'As the characters and ball danced across the screen, I played with camera angles and motion to inject energy and excitement into every frame.'
+    ],
+    methodImg:
+          'https://davyjonesdesign.github.io/data-for-axios/assets/football-frenzy/storyboard.jpg',
+    methodCap: 'The rough concept storyboard I put together that defined structure and content for the motion graphic.',
+    //
+    // Outcome
+    outcome: [
+      'The result? A mesmerizing animation that transcends expectations. With its kaleidoscope of colors and seamless transitions, "Football Frenzy Motion Design" transports viewers to the heart of the action, leaving them spellbound and craving for more. It\'s a testament to the endless possibilities of motion design and its ability to ignite imagination and stir emotions.'
+    ],
+    outcomeFrame: 'https://mega.nz/embed/ypAHQDYb#e-fAP3uPQ-WDqINX0L3CBLt_LTS0JlyK6ZcJg33DZAc',
+    outcomeCap: 'The final version of Football Frenzy, a motion design video'
   },
 
   // Written in Stone
@@ -207,14 +323,14 @@ const data = [
     overviewFrame: 'https://mega.nz/embed/29QVkBDQ#agm36-OO_ddieurb6XMd5N0H6kV0MkT_7eccppDD7mY',
     overviewCap: 'Capstone Presentation of Written in Stone at MCAD (August 10, 2023)',
 
-    // Research/Approach
-    research: [
+    // Method
+    method: [
       'The journey began with thorough research, drawing inspiration from platforms like Urban Archive, leading to the development of a live web app. Starting with moodboards and basic brand design, I progressed to low-fidelity app sketches and then higher-fidelity wireframes. Alongside, I documented the evolving design system. Using tools like VS Code and Vue framework, the project took shape, complemented by a teaser motion graphic video.',
       'Feedback from experts and potential users guided improvements, making the app more user-friendly. This iterative process refined functionality and interface, ensuring accessibility for all.'
     ],
-    researchFrame:
+    methodFrame:
           'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxLh7aq2HW1eUzrIFbNJlph%2FWIS_final%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D225-2746%26viewport%3D163%252C591%252C0.21%26t%3DzUxShCSIaIMP4QbO-1%26scaling%3Dscale-down-width%26starting-point-node-id%3D225%253A2746%26mode%3Ddesign',
-    researchCap: 'Written in Stone Current Prototype',
+    methodCap: 'Written in Stone Current Prototype',
     //
     // Outcome
     outcome: [
@@ -272,13 +388,13 @@ const data = [
     overviewCap: 'Caps Mushroom Magazine - Digital Version',
     //
     // research
-    research: [
+    method: [
       'I started by creating a moodboard where I compiled a few visual and contextual touchpoints I wanted to keep in scope. After iterating out a masthead, I then began developing the front cover, table of contents, centerspread, and style guide.',
       'After many round of peer reviews, I finalized all assets and mocked up a printed version.'
     ],
-    researchImg:
+    methodImg:
       'https://davyjonesdesign.github.io/data-for-axios/assets/caps-magazine/magazine-styleguide.jpg',
-    researchCap: 'Caps Mushroom Magazine - Style Guide',
+    methodCap: 'Caps Mushroom Magazine - Style Guide',
     //
     // Outcome
     outcome: [
@@ -287,6 +403,74 @@ const data = [
     outcomeImg:
       'https://davyjonesdesign.github.io/data-for-axios/assets/caps-magazine/magazine-centerspread.jpg',
     outcomeCap: 'Caps Mushroom Magazine - Centerspread'
+  },
+
+  // Streamline App
+  {
+    alias: 'streamline-app',
+    title: 'Streamline App',
+    subtitle:
+        'A video streaming platform that consolidates content from various streaming apps, solving the problem of fragmented content and redundant payments.',
+    duration: 'Spring 2023',
+
+    // tags
+    tag: [
+      'UX/UI'
+    ],
+
+    // main img
+    mainImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/streamline/streamine-cover.jpg',
+    mainCap: 'A mockup of the dashboard and other screens from the final Streamline app design',
+
+    // objectives
+    objectives: [
+      'Gain insights into user behavior and preferences on video streaming apps.',
+      'Create user personas, wireframes, and prototypes based on user feedback.',
+      'Develop a streamlined user interface for a mobile video streaming app.',
+      'Gather feedback from users to iterate and improve the design.'
+    ],
+
+    // links
+    links: [
+      {
+        link: 'https://www.figma.com/proto/5URMsR0axp6YLlhlDWs1OR/UX23-app-design_04-25?page-id=140%3A2090&type=design&node-id=277-9307&viewport=155%2C326%2C0.03&t=YlRa7sAgYpubjnBo-1&scaling=scale-down&starting-point-node-id=277%3A9307&mode=design',
+        linkDescription: 'Streamline Project Presentation'
+      },
+      {
+        link: 'https://www.figma.com/proto/5URMsR0axp6YLlhlDWs1OR/UX23-app-design_04-25?page-id=15%3A24&type=design&node-id=127-2287&viewport=488%2C562%2C0.17&t=8wOZSSjIYRiyCtl5-1&scaling=scale-down&starting-point-node-id=127%3A2287&mode=design',
+        linkDescription: 'Streamline App Prototype'
+      }
+    ],
+
+    // toolbox
+    tools: [
+      'Figma',
+      'Adobe Illustrator'
+    ],
+
+    // Overview
+    overview: [
+      'The Streamline app addresses the challenge of fragmented content across multiple streaming platforms, streamlining the user experience and reducing redundant payments. The project began with identifying the problem of users struggling to remember where desired content resides across different apps. Through research and user feedback, I devised a solution to aggregate content from various streaming services into one convenient platform.'
+    ],
+    overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/streamline/streamline-survey.jpg',
+    overviewCap: 'The survey I used to gather key insights and directives from 20 potential users',
+
+    // Method
+    method: [
+      'To kickstart the project, I conducted a survey among 20 participants to understand their streaming habits and pain points, taking a proactive approach to gather insights. Using the data collected, I crafted user personas to empathize with user needs and guide my design decisions.',
+      'Sketching mobile app interfaces, I focused on addressing users\' primary context for streaming on mobile devices. Mapping user flows helped visualize and define user journey requirements, while iterative design cycles in Figma allowed me to refine the user interface and experience.'
+    ],
+    methodImg:
+          'https://davyjonesdesign.github.io/data-for-axios/assets/streamline/streamline-userflow.jpg',
+    methodCap: 'The final user flow mapped out during project which helped define requirements',
+
+    // Outcome
+    outcome: [
+      'Ongoing work includes the redesign of the mobile landing screen, introducing a new menu and dark mode version. The simple flows include opening the menu with accordion items and toggling between light and dark mode. These serve as a foundation for user feedback and iterative improvements.',
+      'I plan to solicit feedback on the current design through social media and implement changes based on user input. The iterative redesign process will extend to various sections of Wikipedia.org.'
+    ],
+    outcomeFrame: 'https://mega.nz/embed/m4BxBLBB#ycyOw7cpsrr9f_3b8lqDiKpR_p09dpRyYzbgAXFaYk8',
+    outcomeCap: 'Presentation of the process and outcomes of the Streamline app project'
   }
 
 ]

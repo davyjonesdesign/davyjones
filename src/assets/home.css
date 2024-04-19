@@ -89,7 +89,7 @@
                 -webkit-line-clamp: 1;
                 align-self: stretch;
                 overflow: hidden;
-                text-align: center;
+                text-align: left;
                 margin: 0;
     
             }
@@ -111,11 +111,11 @@
             }
         }
         &:hover {
-            border: 2px solid var(--white);
-            background: var(--neutral-1);
-
-            /* card-shadow */
-            box-shadow: var(--card-shadow);
+            border: 2px solid var(--neutral-2);
+            background: var(--white);
+            box-shadow: none;
+            transition: .1s ease-in-out;
+            transform: translate(2px, 4px);
             .projectCard-title {
                 text-decoration: underline;
                 color: var(--deep-2);
