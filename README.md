@@ -1,19 +1,7 @@
 # davyjones
 
-## Project setup
+## Van Derlip Scholarship Portfolio Site
 ```
-npm install
+This is Davy Jones' portfolio website he submitted for the 2023 Van Derlip Scholarship for the Master of Arts in Graphic and Web Design Program. It consists of projects completed throughout his time at Minneapolis College of Art and Design
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [live site](https://mcad.davyjones.me/).
