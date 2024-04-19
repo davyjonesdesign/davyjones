@@ -1,0 +1,20 @@
+.social-links {
+    display: flex;
+    flex-direction: row;
+    gap: var(--xxs);
+
+    .text-link {
+        flex-direction: column;
+        font-size: 14px;
+        font-weight: 400;
+        height: 30px;
+        svg {
+            width: 30px;
+            height: 30px;
+            fill: var(--shallow-1);
+        }
+        .link-text {
+            display: none;
+        }
+    }
+}

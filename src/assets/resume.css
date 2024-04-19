@@ -1,0 +1,49 @@
+.resume-page {
+    display: flex;
+    flex-direction: row;
+    padding: var(--xl) var(--xxl);
+    gap: var(--xl);
+    h3 {
+        margin: var(--md) 0;
+        padding-bottom: var(--xs);
+        border-bottom: 2px solid var(--neutral-2);
+    }
+    .resume-left {
+        flex: 4;
+        .work-experience {
+            display: flex;
+            flex-direction: row;
+            gap: var(--md);
+            h5 {
+                flex: 1;
+                align-self: stretch;
+                line-height: 125%;
+                padding-top: var(--xxs);
+            }
+        .exp-roles {
+                flex: 2;
+                padding-bottom: var(--xs);
+
+                .exp-role {
+                    padding-bottom: var(--xs);
+                }
+            }
+        }
+        .ed-entry {
+            margin: var(--md) 0;
+            h5, h6 {
+                margin: 0px 0px 0px var(--xs);
+            }
+        }
+    }
+    .resume-right {
+        flex: 1;
+        h4 {
+            margin: var(--md) 0 var(--xs);
+            line-height: 125%;
+        }
+        h5 {
+            margin: 0px 0px var(--xxs) var(--xs);
+        }
+    }
+}

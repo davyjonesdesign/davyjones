@@ -1,0 +1,131 @@
+.tag-section {
+    background: var(--deep-2);
+    padding: var(--xs) var(--md);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--xs);
+    flex-wrap: wrap;
+    button {
+        &:hover {
+            border-color: var(--deep-1);
+            background: var(--deep-2);
+            cursor: pointer;
+            color: var(--neutral-1);
+
+        }
+       
+    }
+    .active {
+        border: 2px solid var(--shallow-2);
+        background: var(--shallow-2);
+        color: var(--text);
+        &:hover {
+            border-color: var(--shallow-2);
+            background: var(--shallow-1);
+            color: var(--text);
+
+        }
+
+    }
+}
+.page-heading {
+    display: flex;
+    padding: var(--lg) var(--xxl) var(--xs);
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: var(--lg);
+    align-self: stretch;
+    flex-wrap: wrap;
+    margin: 0;
+    color: var(--subtext);
+    text-align: center;
+}
+.project-section {
+    display: flex;
+    padding: var(--lg) var(--xxl);
+    align-items: flex-start;
+    justify-content: space-between;
+
+    align-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+    gap: var(--md-2);
+    .project-card {
+        width: calc(33% - var(--sm));
+        border-radius: var(--xl);
+        background: var(--white);
+        border: 2px solid var(--white);
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        overflow: hidden;
+
+        /* card-shadow */
+        box-shadow: var(--card-shadow);
+        .visual-wrapper {
+            overflow: hidden;
+            display: flex;
+            border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+            .projectCard-visual {
+                height: 300px;
+                object-fit: cover;
+                min-width: 100%;
+            }
+        }
+        .projectCard-content {
+            display: flex;
+            padding: var(--md-2) var(--lg) var(--xl);
+            flex-direction: column;
+            align-items: flex-start;
+            gap: var(--md);
+            align-self: stretch;
+            .projectCard-title {
+                color: var(--links);
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 1;
+                align-self: stretch;
+                overflow: hidden;
+                text-align: center;
+                margin: 0;
+    
+            }
+            .projectCard-description {
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3;
+                align-self: stretch;
+                overflow: hidden;
+                text-align: left;
+                margin: 0;
+    
+            }
+            .card-tags {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                gap: var(--xxs);
+            }
+        }
+        &:hover {
+            border: 2px solid var(--white);
+            background: var(--neutral-1);
+
+            /* card-shadow */
+            box-shadow: var(--card-shadow);
+            .projectCard-title {
+                text-decoration: underline;
+                color: var(--deep-2);
+            }
+        }
+        &:active {
+            border: 2px solid var(--deep-2);
+            background: var(--neutral-1);
+            box-shadow: none;
+            transition: 0.1s ease-in-out;
+        }
+    }
+}

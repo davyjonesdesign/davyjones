@@ -1,18 +1,75 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+      <div class="page-wrap">
+        <div class="tag-section">
+            <button v-for="tag in uniqueTags" :key="tag" @click="filterProjects(tag)" :class="{ active: tags.includes(tag) }">{{ tag }}</button>
+        </div>
+        <h2 class="page-heading">Projects</h2>
+        <!-- Tag buttons -->
+        
+        <!-- Project cards filtered by selected tags -->
+        <div class="project-section">
+          <ProjectCard
+            class="project-card"
+            v-for="project in filteredProjects"
+            :key="project.alias"
+            :project="project"
+            :show-description="true"
+          />
+        </div>
+      </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import ProjectCard from "@/components/ProjectCard.vue";
+import data from "../data/data";
 
 export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
+    components: {
+        ProjectCard
+    },
+    data() {
+        return {
+            ProjectCards: data,
+            tags: [] // Define an array to hold the selected tags
+        }
+    },
+    methods: {
+        filterProjects(tag) {
+            if (this.tags.includes(tag)) {
+                // If the tag is already selected, remove it
+                this.tags = this.tags.filter(t => t !== tag);
+            } else {
+                // If the tag is not selected, add it
+                this.tags.push(tag);
+            }
+        }
+    },
+    computed: {
+        // Compute unique tags from all projects
+        uniqueTags() {
+            const tags = new Set();
+            this.ProjectCards.forEach(project => {
+                project.tag.forEach(tag => tags.add(tag));
+            });
+            return Array.from(tags);
+        },
+        // Compute filtered projects based on selected tags
+        filteredProjects() {
+            if (this.tags.length === 0) {
+                // If no tags selected, return all projects
+                return this.ProjectCards;
+            } else {
+                // Filter projects based on selected tags
+                return this.ProjectCards.filter(project =>
+                    project.tag.some(tag => this.tags.includes(tag))
+                );
+            }
+        }
+    }
 }
 </script>
+
+<style>
+
+</style>
+../data/data-archived
