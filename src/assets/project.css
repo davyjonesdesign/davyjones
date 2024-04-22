@@ -1,5 +1,9 @@
 .project-page {
     margin-top: 64px;
+    h3 {
+    margin-bottom: var(--md);
+
+    }
 }
 
 .navbar:has(+ * + .project-page) {
@@ -35,6 +39,7 @@
         align-items: flex-start;
         flex: 1;
         align-self: stretch;
+        gap: var(--xl);
     }
     .data-visual {
         /* max-height: 400px; */
@@ -117,6 +122,9 @@
             display: flex;
             align-items: flex-start;
             gap: var(--lg);
+            h3 {
+                min-width: 115px;
+            }
             p {
                 margin-top: var(--xxs);
             }

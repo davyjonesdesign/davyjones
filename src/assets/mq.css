@@ -27,27 +27,58 @@
         }
     }
     .navbar {
-        width: calc(100% - 60px);
+        width: calc(100% - var(--md-2));
+        padding: var(--md) var(--md-2) var(--xxl);
 
     }
+    .navbar:has(+ * + .project-page) {
+        padding: var(--sm) var(--md-2) 0;
+        height: 51px;
+    }
     .shrink {
-        height: 56px;
+        padding: var(--sm) var(--md-2) 0;
+        height: 51px;
+        .brand {
+            align-self: flex-start;
+        }
     }
     .page-wrap {
         margin-top: 300px;
+    }
+    .project-page {
+        margin-top: 63px;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .project-section {
         padding: var(--md-2);
+        .project-card {
+            .visual-wrapper {
+                height: 200px;
+                .projectCard-visual {
+                    width: 100%;
+                }
+            }
+            .projectCard-content {
+                padding: var(--sm) var(--md) var(--lg);
+                gap: var(--sm);
+            }
+        }
+        
+    }
+    .tag-section {
+        padding: var(--xs);
     }
     .data-header {
         flex-direction: column-reverse;
         padding: 20px 20px 0;
     }
     .page-wrap {
-        margin-top: 240px;
+        margin-top: 170px;
+    }
+    .project-page {
+        margin-top: 0px;
     }
     .dataCards-section {
         flex-direction: column;
@@ -71,9 +102,21 @@
         gap: 0px;
     }
     .navbar {
-        
+        padding: var(--md-2) var(--md);        ;
+        width: calc(100% - var(--lg));
         .navLinks {
             display: none;
+        }
+    }
+    .navbar:has(+ * + .project-page) {
+        padding: var(--md) var(--md-2) 0;
+        height: 51px;
+    }
+    .shrink {
+        height: 36px;
+        padding: var(--md);
+        .navbarSkinny {
+            min-height: 25px;
         }
     }
     .navLinks-mobile {
@@ -81,7 +124,7 @@
         z-index: 10000;
         position: sticky;
         top: 18px;
-        margin: 30px 20px;
+        margin: 24px 20px;
         .ham {
             display: flex;
             justify-content: flex-end;
@@ -180,5 +223,12 @@
                 }
                 
               }
-        }     
+        }
+    .resume-page {
+        margin-top: 240px;
+        padding: var(--lg) var(--md);
+    }   
+}
+@media (hover: none)  {
+    
 }

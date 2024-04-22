@@ -67,6 +67,58 @@ const data = [
     outcomeCap: 'LSU Health New Orlean\'s NLN application completed April 2024'
   },
 
+  // Breakfast mural
+  {
+    alias: 'breakfast-mural',
+    title: 'Breakfast Mural: Illustrative Typography',
+    subtitle:
+        'I tackled a mural project during my Typography course, where I got to play with hand-drawn elements to represent the word "breakfast" in a creative way.',
+    duration: 'Spring 2021',
+
+    // tags
+    tag: [
+      'Illustration'
+    ],
+
+    // main img
+    mainImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/breakfast/breakfast-mural-mockup.jpg',
+    mainCap: 'A cafe mockup of the Breakfast mural, an adventure in illustrative typography',
+
+    // objectives
+    objectives: [
+      'To explore new perspectives on typography, balancing legibility with personality.',
+      'To create a visually engaging mural that effectively communicates the concept of "breakfast."'
+    ],
+
+    // toolbox
+    tools: [
+      'Figma',
+      'Adobe Illustrator'
+    ],
+
+    // Overview
+    overview: [
+      'For this assignment, I dove into the challenge of turning the word "breakfast" into a visual feast. Each letter was transformed into a unique breakfast item, aiming to capture the joyful and hearty essence of a morning meal.'
+    ],
+    overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/breakfast/breakfast-rectangle.jpg',
+    overviewCap: 'The full and final composition of the breakfast illustrative typography',
+
+    // Method
+    method: [
+      'Armed with paper and pencil, I sketched out different breakfast-themed illustrations, ranging from bacon strips to sunny-side-up eggs. After refining the sketches, I brought them to life digitally using Adobe Illustrator, ensuring they maintained their charm and clarity.'
+    ],
+    methodImg:
+          'https://davyjonesdesign.github.io/data-for-axios/assets/breakfast/breakfast-sketch.jpg',
+    methodCap: 'The original concept sketch for the breakfast mural',
+
+    // Outcome
+    outcome: [
+      'The finished mural struck the perfect balance between readability and creativity, leaving a memorable impression on viewers. This project not only honed my typography skills but also taught me the importance of injecting personality into design.'
+    ],
+    outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/breakfast/breakfast-mural-mockup.jpg',
+    outcomeCap: 'A cafe mockup of the Breakfast mural, an adventure in illustrative typography'
+  },
+
   // WikiUI redesign
   {
     alias: 'wiki-ui',
@@ -132,122 +184,6 @@ const data = [
     ],
     outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/wikiUI/wikiUI-proto-2.gif',
     outcomeCap: 'Wikipedia\'s initial UX/UI redesign prototype, showing the landing page. mobile menu interactions, and dark mode mini user journey.'
-  },
-
-  // Breakfast mural
-  {
-    alias: 'breakfast-mural',
-    title: 'Breakfast Mural: Illustrative Typography',
-    subtitle:
-        'I tackled a mural project during my Typography course, where I got to play with hand-drawn elements to represent the word "breakfast" in a creative way.',
-    duration: 'Spring 2021',
-
-    // tags
-    tag: [
-      'Illustration'
-    ],
-
-    // main img
-    mainImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/breakfast/breakfast-mural-mockup.jpg',
-    mainCap: 'A cafe mockup of the Breakfast mural, an adventure in illustrative typography',
-
-    // objectives
-    objectives: [
-      'To explore new perspectives on typography, balancing legibility with personality.',
-      'To create a visually engaging mural that effectively communicates the concept of "breakfast."'
-    ],
-
-    // toolbox
-    tools: [
-      'Figma',
-      'Adobe Illustrator'
-    ],
-
-    // Overview
-    overview: [
-      'For this assignment, I dove into the challenge of turning the word "breakfast" into a visual feast. Each letter was transformed into a unique breakfast item, aiming to capture the joyful and hearty essence of a morning meal.'
-    ],
-    overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/breakfast/breakfast-rectangle.jpg',
-    overviewCap: 'The full and final composition of the breakfast illustrative typography',
-
-    // Method
-    method: [
-      'Armed with paper and pencil, I sketched out different breakfast-themed illustrations, ranging from bacon strips to sunny-side-up eggs. After refining the sketches, I brought them to life digitally using Adobe Illustrator, ensuring they maintained their charm and clarity.'
-    ],
-    methodImg:
-          'https://davyjonesdesign.github.io/data-for-axios/assets/breakfast/breakfast-sketch.jpg',
-    methodCap: 'The original concept sketch for the breakfast mural',
-
-    // Outcome
-    outcome: [
-      'The finished mural struck the perfect balance between readability and creativity, leaving a memorable impression on viewers. This project not only honed my typography skills but also taught me the importance of injecting personality into design.'
-    ],
-    outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/breakfast/breakfast-mural-mockup.jpg',
-    outcomeCap: 'A cafe mockup of the Breakfast mural, an adventure in illustrative typography'
-  },
-
-  // Written in Stone
-  {
-    alias: 'motion-football-frenzy',
-    title: 'Football Frenzy Motion Design',
-    subtitle:
-        'A dynamic motion design piece exploring collage style animation in a soccer game scenario, aimed at delivering a compelling and entertaining experience.',
-    duration: 'Fall 2022',
-
-    // tags
-    tag: [
-      'Motion Graphic'
-    ],
-
-    // main img
-    mainImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/football-frenzy/JonedDavy_MotionDesign_SoccerCollage.gif',
-    mainCap: 'A GIF of the final Football Frenzy motion graphic',
-
-    // objectives
-    objectives: [
-      'Experiment with collage-style motion design',
-      'Create a short video that is compelling, fun, and entertaining',
-      'Develop skills in utilizing point of view and 3rd dimensional play in motion design'
-    ],
-
-    // links
-    links: [
-      {
-        link: 'https://youtu.be/YwCCgf-5vPQ',
-        linkDescription: 'Football Frenzy Video'
-      }
-    ],
-
-    // toolbox
-    tools: [
-      'Adobe Photoshop',
-      'Adobe After Effects',
-      'Adobe Audition'
-    ],
-
-    // Overview
-    overview: [
-      'For the Motion Design course, I embarked on creating "Football Frenzy Motion Design" to delve into the realm of collage-style animation. My aim was to construct a vibrant scene from a soccer game, utilizing a variety of collage pieces to depict the pitch, goals, ball, players, stands, and fans.',
-      'The project aimed to deliver a short video that not only showcased technical proficiency but also captivated the audience with its energy and creativity.'
-    ],
-    overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/football-frenzy/moodboard.jpg',
-    overviewCap: 'The moodboard I initially developed which lead a lot of the style of this project.',
-
-    // Method
-    method: [
-      'The creative process kicked off with moodboarding and storyboarding, setting the stage for the visual narrative to unfold. Armed with free images and a keen eye for detail, I meticulously crafted each element in Photoshop before integrating them into After Effects.',
-      'As the characters and ball danced across the screen, I played with camera angles and motion to inject energy and excitement into every frame.'
-    ],
-    methodImg:
-          'https://davyjonesdesign.github.io/data-for-axios/assets/football-frenzy/storyboard.jpg',
-    methodCap: 'The rough concept storyboard I put together that defined structure and content for the motion graphic.',
-    //
-    // Outcome
-    outcome: [
-      'The result? A mesmerizing animation that transcends expectations. With its kaleidoscope of colors and seamless transitions, "Football Frenzy Motion Design" transports viewers to the heart of the action, leaving them spellbound and craving for more. It\'s a testament to the endless possibilities of motion design and its ability to ignite imagination and stir emotions.'
-    ],
-    outcomeFrame: 'https://mega.nz/embed/ypAHQDYb#e-fAP3uPQ-WDqINX0L3CBLt_LTS0JlyK6ZcJg33DZAc',
-    outcomeCap: 'The final version of Football Frenzy, a motion design video'
   },
 
   // Written in Stone
@@ -341,6 +277,70 @@ const data = [
     outcomeCap: 'Marketing Teaser Ad Final Version for Written in Stone.'
   },
 
+  // Football Frenzy
+  {
+    alias: 'motion-football-frenzy',
+    title: 'Football Frenzy Motion Design',
+    subtitle:
+        'A dynamic motion design piece exploring collage style animation in a soccer game scenario, aimed at delivering a compelling and entertaining experience.',
+    duration: 'Fall 2022',
+
+    // tags
+    tag: [
+      'Motion Graphic'
+    ],
+
+    // main img
+    mainImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/football-frenzy/JonesDavy_MotionDesign_SoccerCollage.gif',
+    mainCap: 'A GIF of the final Football Frenzy motion graphic',
+
+    // objectives
+    objectives: [
+      'Experiment with collage-style motion design',
+      'Create a short video that is compelling, fun, and entertaining',
+      'Develop skills in utilizing point of view and 3rd dimensional play in motion design'
+    ],
+
+    // links
+    links: [
+      {
+        link: 'https://youtu.be/YwCCgf-5vPQ',
+        linkDescription: 'Football Frenzy Video'
+      }
+    ],
+
+    // toolbox
+    tools: [
+      'Adobe Photoshop',
+      'Adobe After Effects',
+      'Adobe Audition'
+    ],
+
+    // Overview
+    overview: [
+      'For the Motion Design course, I embarked on creating "Football Frenzy Motion Design" to delve into the realm of collage-style animation. My aim was to construct a vibrant scene from a soccer game, utilizing a variety of collage pieces to depict the pitch, goals, ball, players, stands, and fans.',
+      'The project aimed to deliver a short video that not only showcased technical proficiency but also captivated the audience with its energy and creativity.'
+    ],
+    overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/football-frenzy/moodboard.jpg',
+    overviewCap: 'The moodboard I initially developed which lead a lot of the style of this project.',
+
+    // Method
+    method: [
+      'The creative process kicked off with moodboarding and storyboarding, setting the stage for the visual narrative to unfold. Armed with free images and a keen eye for detail, I meticulously crafted each element in Photoshop before integrating them into After Effects.',
+      'As the characters and ball danced across the screen, I played with camera angles and motion to inject energy and excitement into every frame.'
+    ],
+    methodImg:
+          'https://davyjonesdesign.github.io/data-for-axios/assets/football-frenzy/storyboard.jpg',
+    methodCap: 'The rough concept storyboard I put together that defined structure and content for the motion graphic.',
+    //
+    // Outcome
+    outcome: [
+      'The result? A mesmerizing animation that transcends expectations. With its kaleidoscope of colors and seamless transitions, "Football Frenzy Motion Design" transports viewers to the heart of the action, leaving them spellbound and craving for more. It\'s a testament to the endless possibilities of motion design and its ability to ignite imagination and stir emotions.'
+    ],
+    outcomeFrame: 'https://mega.nz/embed/ypAHQDYb#e-fAP3uPQ-WDqINX0L3CBLt_LTS0JlyK6ZcJg33DZAc',
+    outcomeCap: 'The final version of Football Frenzy, a motion design video'
+  },
+
   // Caps
   {
     alias: 'Caps',
@@ -403,6 +403,73 @@ const data = [
     outcomeImg:
       'https://davyjonesdesign.github.io/data-for-axios/assets/caps-magazine/magazine-centerspread.jpg',
     outcomeCap: 'Caps Mushroom Magazine - Centerspread'
+  },
+
+  // Cafe Noir
+  {
+    alias: 'motion-cafe-noir',
+    title: 'Cafe Noir Motion Design',
+    subtitle:
+        'A motion design project featuring a cafe scene with layered animation, created to entertain and engage viewers.',
+    duration: 'Fall 2022',
+
+    // tags
+    tag: [
+      'Motion Graphic'
+    ],
+
+    // main img
+    mainImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/cafe-noir/JonesDavy_MotionDesign_CafeNoir.gif',
+    mainCap: 'A GIF of the final Cafe Noir motion graphic',
+
+    // objectives
+    objectives: [
+      'Develop a compelling and entertaining short video using motion design techniques',
+      'Create a scene with a stationary single point of view and layered elements (foreground, middle ground, background)',
+      'Utilize 2D illustration and animation to bring the cafe environment to life',
+      'Incorporate micro actions and major actions to enhance the storytelling',
+      'Implement original illustrations for all elements of the scene'
+    ],
+
+    // links
+    links: [
+      {
+        link: 'https://mega.nz/file/v9pRwJgK#Vssh4Hqsh6EwLYx_thyOGJewHojUhnoJ_KW9BUVlQAQ',
+        linkDescription: 'Cafe Noir Video'
+      }
+    ],
+
+    // toolbox
+    tools: [
+      'Adobe Illustrator',
+      'Adobe After Effects',
+      'Adobe Audition'
+    ],
+
+    // Overview
+    overview: [
+      'In the Motion Design course, I embarked on a project to animate a cafe scene, aiming to create an immersive experience that would both entertain and captivate. My vision was to depict a bustling cafe atmosphere, complete with rain outside, bustling activity within, and flickering neon signs in the background.',
+      'To achieve this, I meticulously planned out the scene\'s elements and actions, ensuring a coherent and engaging narrative. Each aspect, from the rain in the foreground to the bustling activity inside, was carefully crafted to contribute to the overall ambiance and story.'
+    ],
+    overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/cafe-noir/moodboard.jpg',
+    overviewCap: 'The moodboard I initially developed which lead a lot of the style of this project.',
+
+    // Method
+    method: [
+      'The journey began with rough sketches and storyboards to flesh out the scene\'s progression and elements. From there, I delved into creating the base illustrations using Adobe Illustrator, ensuring each element captured the essence of the cafe environment.',
+      'With the illustrations in place, I transitioned to Adobe After Effects to breathe life into the scene through animation. Each element, from the swirling steam of the coffee to the flickering neon signs, was animated with precision and care, bringing depth and movement to the scene.'
+    ],
+    methodImg:
+          'https://davyjonesdesign.github.io/data-for-axios/assets/cafe-noir/storyboard.jpg',
+    methodCap: 'The rough concept storyboard I put together that defined structure and content for this project.',
+    //
+    // Outcome
+    outcome: [
+      'The final result surpassed expectations, delighting viewers with its immersive and engaging portrayal of a bustling cafe atmosphere. The layered animation and attention to detail captured the essence of the scene, drawing viewers into the narrative and leaving a lasting impression.',
+      'This project not only showcased my skills in motion design but also demonstrated my ability to conceptualize and execute a creative vision effectively, setting the stage for future endeavors in the field.'
+    ],
+    outcomeFrame: 'https://mega.nz/embed/v9pRwJgK#Vssh4Hqsh6EwLYx_thyOGJewHojUhnoJ_KW9BUVlQAQ',
+    outcomeCap: 'The final version of Cafe Noir, a motion design video'
   },
 
   // Streamline App
@@ -471,7 +538,279 @@ const data = [
     ],
     outcomeFrame: 'https://mega.nz/embed/m4BxBLBB#ycyOw7cpsrr9f_3b8lqDiKpR_p09dpRyYzbgAXFaYk8',
     outcomeCap: 'Presentation of the process and outcomes of the Streamline app project'
-  }
+  },
 
+  // Watermark App
+  {
+    alias: 'watermark-app',
+    title: 'Watermark App',
+    subtitle:
+        'Building a Bible Study Web App with Vue Framework, I aimed to create a dynamic platform for modern users, ensuring accessibility across devices and seamless integration into daily life.',
+    duration: 'Spring 2021',
+
+    // tags
+    tag: [
+      'UX/UI',
+      'Development'
+    ],
+
+    // main img
+    mainImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/watermark/watermark-mockup-2024.jpg',
+    mainCap: 'A mockup of the bible study page and other screens from the final Watermark website',
+
+    // objectives
+    objectives: [
+      'Craft a user-friendly, visually captivating, and mobile-responsive platform for accessing Bible studies',
+      'Develop a web app utilizing the Vue framework to ensure efficiency and dynamism',
+      'Create a scalable and high-performing application offering seamless experiences across devices'
+    ],
+
+    // links
+    links: [
+      {
+        link: 'https://www.watermarkstudies.com/',
+        linkDescription: 'Watermark Website'
+      },
+      {
+        link: 'https://github.com/davyjonesdesign/watermark-studies',
+        linkDescription: 'Github Repository'
+      }
+    ],
+
+    // toolbox
+    tools: [
+      'Figma',
+      'Adobe Illustrator',
+      'HTML',
+      'CSS',
+      'Javascript',
+      'Vue.js',
+      'Github'
+    ],
+
+    // Overview
+    overview: [
+      'I embarked on developing the Watermark Web App to offer a seamless way to organize various Bible studies. Realizing the importance of accessibility in today\'s digital landscape, I chose Vue framework for its flexibility.',
+      'Tailoring the experience for older users, I focused on improving accessibility and readability through thorough research. The resulting design exudes a calm scholarly aesthetic, incorporating intuitive UI patterns.'
+    ],
+    overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/watermark/wm-home-2.jpg',
+    overviewCap: 'The home screen showing search and filter functionality for the available studies',
+
+    // Method
+    method: [
+      'To capture the essence of the project, I delved into a comprehensive branding process, aligning the app\'s visual identity with its purpose. This involved categorizing and organizing data to ensure a seamless user experience. Through meticulous layout planning, I optimized the app\'s structure for intuitive navigation.',
+      'Leveraging Vue framework, I translated these insights into dynamic interfaces, ensuring smooth performance across devices. The app boasts a searchable Bible study database, interconnected resources, and responsive web pages.'
+    ],
+    methodImg:
+    'https://davyjonesdesign.github.io/data-for-axios/assets/watermark/resources.jpg',
+    methodCap: 'The resource page showing utilized resources and the studies they were used for',
+
+    // Outcome
+    outcome: [
+      'I successfully deployed the Watermark Web App using GitHub pages and shared it with friends and family. Moving forward, my focus is on maintaining user engagement and refining the user experience based on feedback. Continuous iterations will aim to enhance the app\'s functionality and address user needs.'
+    ],
+    outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/watermark/resources-2.jpg',
+    outcomeCap: 'The resource links at the bottom of every study showing resources used with links'
+  },
+
+  // Hums and Whistles
+  {
+    alias: 'hums-whistles',
+    title: 'Hums & Whistles Digital Instrument',
+    subtitle:
+        'Dive into a world where hums and whistles blend with vibrant visuals, creating a one-of-a-kind digital instrument.',
+    duration: 'Spring 2021',
+
+    // tags
+    tag: [
+      'Development'
+    ],
+
+    // main img
+    mainImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/hums-whistles/hums-whistles-vid.gif',
+    mainCap: 'A gif of the Hums & Whistles digital instrument in use',
+
+    // objectives
+    objectives: [
+      'Make a fun digital instrument that mixes sound and visuals',
+      'Use the P5 library for cool audio-visual effects',
+      'Let users play easily with simple keystrokes'
+    ],
+
+    // links
+    links: [
+      {
+        link: 'https://davyjonesdesign.github.io/hums-whistles/',
+        linkDescription: 'Hums & Whistles Digital Instrument'
+      }
+    ],
+
+    // toolbox
+    tools: [
+      'HTML',
+      'CSS',
+      'Javascript',
+      'P5.js',
+      'Github'
+    ],
+
+    // Overview
+    overview: [
+      'In Hums & Whistles, I wanted to make something cool where sound and visuals work together. I started by recording interesting hums and whistles. Then, using the P5 library, I turned these sounds into moving shapes on the screen. People can play with it by pressing keys to make sounds and colors happen at the same time.'
+    ],
+    // overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/hums-whistles/hums-whistles.jpg',
+    // overviewCap: 'The home screen showing search and filter functionality for the available studies',
+
+    // Method
+    method: [
+      'First, I found cool hums and whistles to use. Then, I used the P5 library to make them into moving shapes on the screen. I made it simple for people to play with by pressing keys to make sounds and colors appear together.'
+    ],
+    // methodImg:
+    // 'https://davyjonesdesign.github.io/data-for-axios/assets/watermark/resources.jpg',
+    // methodCap: 'The resource page showing utilized resources and the studies they were used for',
+
+    // Outcome
+    outcome: [
+      'The result? Hums & Whistles is a fun digital project that mixes sound and visuals. It\'s easy to use and shows how cool digital design can be. It\'s not just fun to play with — it also shows how we can use technology in creative ways. So, try it out and enjoy the mix of hums and whistles in a digital wonderland!'
+    ],
+    outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/hums-whistles/hums-whistles.jpg',
+    outcomeCap: 'The Hums & Whistles digital instrument in use'
+  },
+
+  // Marble
+  {
+    alias: 'motion-marble-roll',
+    title: 'Marble Roll (3D) Motion Design',
+    subtitle:
+        'A dynamic motion design featuring a 3D marble rolling through a crafted scene in Cinema 4D, aiming to create a compelling and entertaining video.',
+    duration: 'Fall 2022',
+
+    // tags
+    tag: [
+      'Motion Graphic'
+    ],
+
+    // main img
+    mainImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/marble/JonesDavy_MotionDesign_MarbleRoll.gif',
+    mainCap: 'A GIF of the final Marble Roll (3D) motion graphic',
+
+    // objectives
+    objectives: [
+      'Create a captivating motion design piece',
+      'Showcase 3D modeling and animation skills',
+      'Demonstrate storytelling ability through motion'
+    ],
+
+    // links
+    links: [
+      {
+        link: 'https://youtu.be/wy0tEA_Qxfs',
+        linkDescription: 'Marble Roll (3D) Video'
+      }
+    ],
+
+    // toolbox
+    tools: [
+      'Adobe After Effects',
+      'Cinema 4D',
+      'Adobe Audition'
+    ],
+
+    // Overview
+    overview: [
+      'For the motion design course, I embarked on crafting a scene in Cinema 4D featuring a 3D marble rolling through a meticulously designed environment. The objective was to create an engaging and entertaining video that showcased my skills in 3D modeling, animation, and storytelling through motion. '
+    ],
+    overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/marble/moodboard.jpg',
+    overviewCap: 'The moodboard I initially developed which lead a lot of the style of this project',
+
+    // Method
+    method: [
+      'I began by sketching out a storyboard to outline the scene and camera movements. Using Cinema 4D and After Effects, I constructed the elements, including surfaces, lighting, and camera angles, adhering to the storyboard\'s vision.',
+      'Experimenting with motion and troubleshooting, I ensured a smooth and believable roll for the marble, adjusting camera movements to enhance the flow. Attention was also given to lighting and sound to optimize the composition.'
+    ],
+    methodImg:
+          'https://davyjonesdesign.github.io/data-for-axios/assets/marble/storyboard.jpg',
+    methodCap: 'The rough concept storyboard I put together that defined structure and content for this project.',
+    //
+    // Outcome
+    outcome: [
+      'The final motion design piece achieved the desired effect, meeting the criteria of being engaging and entertaining. The dynamic motion of the marble rolling through the scene, combined with well-executed camera movements and lighting, resulted in a visually captivating experience that showcased my creativity and technical skills in 3D animation.'
+    ],
+    outcomeFrame: 'https://www.youtube.com/embed/wy0tEA_Qxfs?si=enkaMrf4xac4YlOH',
+    outcomeCap: 'The final video version of the marble roll motion design'
+  },
+
+  // Beaker's Breakfast
+  {
+    alias: 'beakers-restaurant-',
+    title: 'Beaker\'s Breakfast Restaurant Branding & Website',
+    subtitle:
+        'Bringing to life a science-themed breakfast diner with a distinctive brand identity and website',
+    duration: 'Fall 2022',
+
+    // tags
+    tag: [
+      'Branding',
+      'Publication',
+      'Illustration',
+      'Development'
+    ],
+
+    // main img
+    mainImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/beakers/beakers-logo.jpg',
+    mainCap: 'The final logo lockups for the Beaker\'s Breakfast brand',
+
+    // objectives
+    objectives: [
+      'Create a branding concept for a science-themed breakfast diner',
+      'Develop a unique, relatable, and timeless design style',
+      'Craft a brand identity that balances fun and coolness without being too cheesy or trendy',
+      'Apply the brand across various deliverables including menus, building signage, and a website'
+    ],
+
+    // links
+    links: [
+      {
+        link: 'https://davyjonesdesign.github.io/beakers/',
+        linkDescription: 'Beaker\'s Breakfast Website'
+      }
+    ],
+
+    // toolbox
+    tools: [
+      'Adobe Illustrator',
+      'Adobe InDesign',
+      'Figma',
+      'HTML',
+      'CSS',
+      'Vue.js',
+      'Github'
+    ],
+
+    // Overview
+    overview: [
+      'I embarked on the journey of crafting a brand identity for Beaker\'s Breakfast, infusing it with a captivating science theme.',
+      'The goal was to strike the perfect balance between fun and sophistication, steering clear of clichés while ensuring the brand remained timeless. The aim was to draw customers in with the subtle allure of science while delivering top-notch service.'
+    ],
+    overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/beakers/chalkboard-menu-mockup.jpg',
+    overviewCap: 'The final walk-up menu styled to mimic a periodic table of elements and applied to chalkboard for a \'classroom\' aesthetic',
+
+    // Method
+    method: [
+      'Starting with brainstorming and sketching logo concepts, I explored different design elements to capture the essence of Beaker\'s Breakfast. After settling on the name and logo, I dove into creating a cohesive brand identity, incorporating colors, typography, and design elements.',
+      'Valuable feedback from classmates and instructors helped shape the brand, ensuring it resonated effectively.'
+    ],
+    methodImg:
+          'https://davyjonesdesign.github.io/data-for-axios/assets/beakers/beakers-concept.jpg',
+    methodCap: 'The original rough sketch of the Beaker\'s Breakfast logo',
+    //
+    // Outcome
+    outcome: [
+      'The end result was a brand that truly embodied the spirit of a science-themed restaurant, blending whimsy with sophistication. From menus to building signage and the website, every deliverable reflected the brand\'s personality.',
+      'This project showcases my ability to creatively solve problems and apply design frameworks in real-world scenarios, demonstrating leadership potential in bringing a compelling brand identity to life.'
+    ],
+    outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/beakers/web-home.jpg',
+    outcomeCap: 'The Beaker\'s Breakfast website style to align with established branding guidelines'
+  }
 ]
 export default data;

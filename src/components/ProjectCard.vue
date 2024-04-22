@@ -45,7 +45,7 @@ export default {
                 <h3 class="projectCard-title">{{ project.title }}</h3>
                 <p class="projectCard-description" v-if="showDescription">{{ project.subtitle }}</p>
                 <div class="card-tags">
-                  <span v-for="tag in project.tag" :key="tag">{{ tag }}</span>
+                  <div class="card-tag" v-for="tag in project.tag" :key="tag">{{ tag }}</div>
                 </div>
             </div>
             <!-- Add more content here as needed -->

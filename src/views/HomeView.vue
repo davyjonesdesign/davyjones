@@ -35,13 +35,21 @@ export default {
     },
     methods: {
         filterProjects(tag) {
+            // if (this.tags.includes(tag)) {
+            //     // If the tag is already selected, remove it
+            //     this.tags = this.tags.filter(t => t !== tag);
+            // } else {
+            //     // If the tag is not selected, add it
+            //     this.tags.push(tag);
+            // }
+            // this.tags = [tag];
             if (this.tags.includes(tag)) {
-                // If the tag is already selected, remove it
-                this.tags = this.tags.filter(t => t !== tag);
-            } else {
-                // If the tag is not selected, add it
-                this.tags.push(tag);
-            }
+      // If the clicked tag is already selected, deselect it
+      this.tags = [];
+    } else {
+      // If the clicked tag is not selected, deselect all other tags and select the clicked tag
+      this.tags = [tag];
+    }
         }
     },
     computed: {

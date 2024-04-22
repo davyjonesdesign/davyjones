@@ -106,7 +106,7 @@ a {
     text-align: center;
     text-edge: cap;
 }
-button, span {
+button, span, .card-tag {
     display: flex;
     padding: var(--xs) var(--md);
     justify-content: center;
@@ -125,7 +125,7 @@ button, span {
     font-weight: 500;
     line-height: 145%;
 }
-span {
+span, .card-tag {
     padding: var(--xxs) var(--xs);
     border-radius: var(--radius-sm);
     background: var(--neutral-1);
