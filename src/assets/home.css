@@ -1,34 +1,59 @@
-.tag-section {
-    background: var(--deep-2);
-    padding: var(--xs) var(--md);
+
+.taglabel-section {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: var(--sm);
     justify-content: center;
-    gap: var(--xs);
-    flex-wrap: wrap;
-    button {
-        &:hover {
-            border-color: var(--deep-1);
-            background: var(--deep-2);
-            cursor: pointer;
-            color: var(--neutral-1);
+    padding: var(--xs) var(--xxl);
+    
+    .tags-label {
+        text-align: center;
+        margin: 0;
+        white-space: nowrap;
 
-        }
-       
     }
-    .active {
-        border: 2px solid var(--shallow-2);
-        background: var(--shallow-2);
-        color: var(--text);
-        &:hover {
-            border-color: var(--shallow-2);
-            background: var(--shallow-1);
-            color: var(--text);
+    .tag-section {
+        background: var(--neutral-1);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: var(--xs);
+        flex-wrap: nowrap;
+        padding-right: 5px;
+    
+        button {
+            &:hover {
+                border-color: var(--neutral-2);
+                background: var(--white);
+                transition: .1s ease-in-out;
+                transform: translate(1px, 2px);
+                cursor: pointer;
+                box-shadow: none;
+                color: var(--text);
+
+            }
+        
+        }
+        .active {
+            border: 2px solid var(--neutral-2);
+                transform: translate(1px, 2px);
+                box-shadow: none;
+                background: var(--neutral-2);
+                color: var(--text);
+            &:hover {
+                border-color: var(--neutral-2);
+                background: var(--neutral-1);
+                color: var(--deep-3);
+                
+
+            }
 
         }
-
     }
 }
+
+
 .page-heading {
     display: flex;
     padding: var(--lg) var(--xxl) var(--xs);
@@ -72,15 +97,17 @@
             .projectCard-visual {
                 height: 250px;
                 object-fit: cover;
+                align-self: center;
+                justify-self: center;
                 min-width: 100%;
             }
         }
         .projectCard-content {
             display: flex;
-            padding: var(--md-2) var(--lg) var(--xl);
+            padding: var(--sm) var(--md) var(--lg);
             flex-direction: column;
             align-items: flex-start;
-            gap: var(--md);
+            gap: var(--sm);
             .projectCard-title {
                 color: var(--links);
                 display: -webkit-box;
@@ -106,8 +133,10 @@
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: row;
-                gap: var(--xxs);
-                width: auto;
+                justify-content: flex-start;
+                width: 100%;
+                padding-top: var(--xxs);
+                
             }
         }
         &:hover {

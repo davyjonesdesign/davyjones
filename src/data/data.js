@@ -4,7 +4,7 @@ const data = [
     alias: 'nln-application-transformation',
     title: 'NLN Application Transformation',
     subtitle:
-        'Crafted visually engaging 100-page NLN Center of Excellence applications for Purdue Northwest College of Nursing and Louisiana State University Health – New Orleans.',
+        'Crafted visually engaging 100-page NLN Center of Excellence applications for Purdue Northwest College of Nursing and Louisiana State University Health – New Orleans',
     duration: 'Winter 2023',
 
     // tags
@@ -18,9 +18,9 @@ const data = [
 
     // objectives
     objectives: [
-      'Improve the readability and professionalism of the application after a previous failed attempt.',
-      'Create a visually engaging document adhering to Purdue\'s branding guidelines.',
-      'Communicate the story of the school effectively to demonstrate why it deserved the Center of Excellence designation.'
+      'Improve the readability and professionalism of the application after a previous failed attempt',
+      'Create a visually engaging document adhering to Purdue\'s branding guidelines',
+      'Communicate the story of the school effectively to demonstrate why it deserved the Center of Excellence designation'
     ],
 
     // links
@@ -70,7 +70,7 @@ const data = [
   // Breakfast mural
   {
     alias: 'breakfast-mural',
-    title: 'Breakfast Mural: Illustrative Typography',
+    title: 'Breakfast Mural Illustrative Typography',
     subtitle:
         'I tackled a mural project during my Typography course, where I got to play with hand-drawn elements to represent the word "breakfast" in a creative way.',
     duration: 'Spring 2021',
@@ -86,14 +86,15 @@ const data = [
 
     // objectives
     objectives: [
-      'To explore new perspectives on typography, balancing legibility with personality.',
-      'To create a visually engaging mural that effectively communicates the concept of "breakfast."'
+      'To explore new perspectives on typography, balancing legibility with personality',
+      'To create a visually engaging mural that effectively communicates the concept of "breakfast"'
     ],
 
     // toolbox
     tools: [
       'Figma',
-      'Adobe Illustrator'
+      'Adobe Illustrator',
+      'Adobe Photoshop'
     ],
 
     // Overview
@@ -138,7 +139,9 @@ const data = [
 
     // objectives
     objectives: [
-      'Significantly improve the user experience of wikipedia.org by restructuring content, simplifying choices, emphasizing actionable items, and enhancing contrast between visible elements. The site\'s functionality will remain unchanged, focusing solely on UI restructuring.'
+      'Significantly improve the user experience of wikipedia.org',
+      'Restructuring content, simplifying choices, emphasizing actionable items, and enhance contrast between visible elements',
+      'Keep familiar functionality the same'
     ],
 
     // links
@@ -197,6 +200,7 @@ const data = [
     // tags
     tag: [
       'UX/UI',
+      'Brand',
       'Development'
     ],
 
@@ -206,9 +210,9 @@ const data = [
 
     // objectives
     objectives: [
-      'Surface comprehensive context on the Bible.',
-      'Devise a way for a diverse audience to independently and responsibly discover biblical contexts and realities.',
-      'Foster an experience that deepens understanding and appreciation of scripture.'
+      'Surface comprehensive context on the Bible',
+      'Devise a way for a diverse audience to independently and responsibly discover biblical contexts and realities',
+      'Foster an experience that deepens understanding and appreciation of scripture'
     ],
 
     // links
@@ -349,7 +353,10 @@ const data = [
     duration: 'Winter 2022',
     //
     // tags
-    tag: ['Publication'],
+    tag: [
+      'Publication',
+      'Brand'
+    ],
     //
     // main img
     mainImg:
@@ -360,8 +367,8 @@ const data = [
     //
     // objectives
     objectives: [
-      'Design a premium, earthy and vintage magazine to be published on a quarterly basis.',
-      'The magazine would all things mushrooms for amateur and seasoned mushroom enthusiasts throughout the US.'
+      'Design a premium, earthy and vintage magazine to be published on a quarterly basis',
+      'The magazine would all things mushrooms for amateur and seasoned mushroom enthusiasts throughout the US'
     ],
     //
     // links
@@ -380,8 +387,7 @@ const data = [
     //
     // overview
     overview: [
-      'Wikipedia.org\'s UI has seen minimal changes since its inception, reflecting an early 2000s internet style. Despite frequent use, the platform lacks significant updates, prompting a self-initiated UX/UI redesign.',
-      'To address this, I am undertaking a UX/UI redesign of wikipedia.org, starting with the mobile landing page.  The redesign aims to simplify the user experience by restructuring content, emphasizing actionable items, and enhancing contrast between visible elements while keeping the site\'s functionality unchanged. My aim is to create a scalable design system for the entire site. This self-published project is not affiliated with Wikipedia.org professionally. The insights are personal, based on a heuristic approach due to limited access to user data.'
+      'For Caps Magazine, the objective was to create a premium publication catering to mushroom enthusiasts across the United States. The magazine needed to embody a sense of trustworthiness while maintaining a connection to the natural world and a vintage aesthetic.'
     ],
     overviewFrame:
       'https://indd.adobe.com/embed/85283b4a-ccfd-4901-81c5-e139d23fa37f?startpage=1&allowFullscreen=true',
@@ -482,7 +488,8 @@ const data = [
 
     // tags
     tag: [
-      'UX/UI'
+      'UX/UI',
+      'Brand'
     ],
 
     // main img
@@ -491,10 +498,10 @@ const data = [
 
     // objectives
     objectives: [
-      'Gain insights into user behavior and preferences on video streaming apps.',
-      'Create user personas, wireframes, and prototypes based on user feedback.',
-      'Develop a streamlined user interface for a mobile video streaming app.',
-      'Gather feedback from users to iterate and improve the design.'
+      'Gain insights into user behavior and preferences on video streaming apps',
+      'Create user personas, wireframes, and prototypes based on user feedback',
+      'Develop a streamlined user interface for a mobile video streaming app',
+      'Gather feedback from users to iterate and improve the design'
     ],
 
     // links
@@ -551,6 +558,7 @@ const data = [
     // tags
     tag: [
       'UX/UI',
+      'Brand',
       'Development'
     ],
 
@@ -750,7 +758,7 @@ const data = [
 
     // tags
     tag: [
-      'Branding',
+      'Brand',
       'Publication',
       'Illustration',
       'Development'

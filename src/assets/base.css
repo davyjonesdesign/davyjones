@@ -25,6 +25,7 @@
     --xxl: 60px;
 
     --card-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.10), 0px 6px 10px 0px rgba(0, 0, 0, 0.15);
+    --card-shadow-2: 1px 2px 2px 0px rgba(0, 0, 0, 0.05), 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 }
 #app {
     display: flex;
@@ -113,9 +114,10 @@ button, span, .card-tag {
     align-items: center;
     gap: var(--xs);
     border-radius: var(--md-2);
-    border: 2px solid var(--deep-1);
-    background: var(--deep-3);
-    color: var(--neutral-1);
+    border: 2px solid var(--white);
+    box-shadow: var(--card-shadow-2);
+    background: var(--white);
+    color: var(--deep-3);
     white-space: nowrap;
     text-align: center;
     leading-trim: both;
@@ -123,7 +125,7 @@ button, span, .card-tag {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 145%;
+    line-height: 100%;
 }
 span, .card-tag {
     padding: var(--xxs) var(--xs);
