@@ -92,12 +92,12 @@
             align-items: center;
             border-radius: 0 0 var(--radius-lg) var(--radius-lg);
             .projectCard-visual {
+                display: flex;
                 height: 250px;
                 object-fit: cover;
                 align-self: center;
                 justify-self: center;
                 min-width: 100%;
-                display: flex;
             }
         }
         .projectCard-content {

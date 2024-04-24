@@ -137,6 +137,13 @@ span, .card-tag {
 }
 .card-tags {
     display: flex;
+    flex-wrap: wrap;
+}
+.projectCard-visual {
+    display: flex;
+}
+.projectCard-content {
+    display: flex;
 }
 .text-link {
     display: flex;

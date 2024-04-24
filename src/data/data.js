@@ -44,7 +44,7 @@ const data = [
     // Overview
     overview: [
       'In early 2023, I collaborated with Purdue Northwest College of Nursing to revamp their NLN Center of Excellence application, addressing readability and professionalism issues. Adhering to Purdue\'s branding, we meticulously redesigned each aspect of the 100-page document for visual appeal and clarity.',
-      'Through iterative design and feedback, we effectively communicated Purdue\'s commitment to nursing excellence, resulting in a successful application and earning the institution the Center of Excellence designation. This project highlights the transformative impact of collaborative design in showcasing institutional merit and driving real-world success.'
+      'Through a cycle of design and feedback, we effectively communicated Purdue\'s commitment to nursing excellence, resulting in a successful application and earning the institution the Center of Excellence designation. This project highlights the transformative impact of collaborative design in showcasing institutional merit and driving real-world success.'
     ],
     overviewFrame: 'https://indd.adobe.com/embed/c54b6d93-81a4-4064-9c2f-db3f30b32db9?startpage=1&allowFullscreen=false',
     overviewCap: 'PNW\'s full NLN application online publication',
@@ -473,8 +473,8 @@ const data = [
     //
     // Outcome
     outcome: [
-      'The final result surpassed expectations, delighting viewers with its immersive and engaging portrayal of a bustling cafe atmosphere. The layered animation and attention to detail captured the essence of the scene, drawing viewers into the narrative and leaving a lasting impression.',
-      'This project not only showcased my skills in motion design but also demonstrated my ability to conceptualize and execute a creative vision effectively, setting the stage for future endeavors in the field.'
+      'The layered animation and attention to detail captured the essence of the scene, drawing viewers into the narrative and leaving a lasting impression. I hope its a little haunting, like Noir is meant to be.',
+      'This project challenged my skills in motion design and grew my ability to conceptualize and execute a creative vision effectively.'
     ],
     outcomeFrame: 'https://mega.nz/embed/v9pRwJgK#Vssh4Hqsh6EwLYx_thyOGJewHojUhnoJ_KW9BUVlQAQ',
     outcomeCap: 'The final version of Cafe Noir, a motion design video'
@@ -526,7 +526,7 @@ const data = [
 
     // Overview
     overview: [
-      'The Streamline app addresses the challenge of fragmented content across multiple streaming platforms, streamlining the user experience and reducing redundant payments. The project began with identifying the problem of users struggling to remember where desired content resides across different apps. Through research and user feedback, I devised a solution to aggregate content from various streaming services into one convenient platform.'
+      'Fragmented content can be a difficulty with all the streaming platforms available now. The project began with identifying the problem of users struggling to remember where desired content resides across different apps. Through research and user feedback, I devised a solution to aggregate content from various streaming services into one convenient platform.'
     ],
     overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/streamline/streamline-survey.jpg',
     overviewCap: 'The survey I used to gather key insights and directives from 20 potential users',
@@ -534,7 +534,7 @@ const data = [
     // Method
     method: [
       'To kickstart the project, I conducted a survey among 20 participants to understand their streaming habits and pain points, taking a proactive approach to gather insights. Using the data collected, I crafted user personas to empathize with user needs and guide my design decisions.',
-      'Sketching mobile app interfaces, I focused on addressing users\' primary context for streaming on mobile devices. Mapping user flows helped visualize and define user journey requirements, while iterative design cycles in Figma allowed me to refine the user interface and experience.'
+      'I focused on addressing users\' primary context for streaming on mobile devices by sketching mobile app interfaces. Mapping user flows helped visualize and define user journey requirements, while iterative design cycles in Figma allowed me to refine the user interface and experience.'
     ],
     methodImg:
           'https://davyjonesdesign.github.io/data-for-axios/assets/streamline/streamline-userflow.jpg',
@@ -542,8 +542,8 @@ const data = [
 
     // Outcome
     outcome: [
-      'Ongoing work includes the redesign of the mobile landing screen, introducing a new menu and dark mode version. The simple flows include opening the menu with accordion items and toggling between light and dark mode. These serve as a foundation for user feedback and iterative improvements.',
-      'I plan to solicit feedback on the current design through social media and implement changes based on user input. The iterative redesign process will extend to various sections of Wikipedia.org.'
+      'Testing helped me understand what users preferred, like darker backgrounds and simplified search. I made changes based on their feedback, resulting in a final prototype they loved for its simplicity and cool colors. Reflecting on the project, I see areas where I can improve, such as conducting more research and refining my design approach',
+      'Streamline\'s design isn\'t just theoretical—it\'s real-world problem-solving. By bringing all content together, it makes streaming easier for users. And my commitment to improvement means I\'m ready to make a real impact in the streaming world.'
     ],
     outcomeFrame: 'https://mega.nz/embed/m4BxBLBB#ycyOw7cpsrr9f_3b8lqDiKpR_p09dpRyYzbgAXFaYk8',
     outcomeCap: 'Presentation of the process and outcomes of the Streamline app project'
@@ -554,7 +554,7 @@ const data = [
     alias: 'watermark-app',
     title: 'Watermark App',
     subtitle:
-        'Building a Bible Study Web App with Vue Framework, I aimed to create a dynamic platform for modern users, ensuring accessibility across devices and seamless integration into daily life.',
+        'I was recruited by a Bible study teacher to build a website for the content he created for his class. Building a Bible Study Web App with Vue Framework, I created a dynamic platform for modern users, ensuring accessibility across devices and seamless integration into daily life.',
     duration: 'Spring 2021',
 
     // tags
@@ -570,9 +570,9 @@ const data = [
 
     // objectives
     objectives: [
-      'Craft a user-friendly, visually captivating, and mobile-responsive platform for accessing Bible studies',
-      'Develop a web app utilizing the Vue framework to ensure efficiency and dynamism',
-      'Create a scalable and high-performing application offering seamless experiences across devices'
+      'Craft a user-friendly, visually appealing platform that adapts to any device',
+      'Dive into Vue to create a dynamic, flexible web app',
+      'Develop an application that\'s both adaptable and high-performing for diverse users'
     ],
 
     // links
@@ -600,16 +600,15 @@ const data = [
 
     // Overview
     overview: [
-      'I embarked on developing the Watermark Web App to offer a seamless way to organize various Bible studies. Realizing the importance of accessibility in today\'s digital landscape, I chose Vue framework for its flexibility.',
-      'Tailoring the experience for older users, I focused on improving accessibility and readability through thorough research. The resulting design exudes a calm scholarly aesthetic, incorporating intuitive UI patterns.'
+      'I developed the Watermark Web App to organize and archive various Bible studies created by this teacher. Realizing the importance of accessibility in today\'s digital landscape, I chose Vue framework for its flexibility.',
+      'The primary users are an older generation, so I focused on improving accessibility and readability. The result is a calm scholarly aesthetic, incorporating intuitive UI patterns.'
     ],
     overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/watermark/wm-home-2.jpg',
     overviewCap: 'The home screen showing search and filter functionality for the available studies',
 
     // Method
     method: [
-      'To capture the essence of the project, I delved into a comprehensive branding process, aligning the app\'s visual identity with its purpose. This involved categorizing and organizing data to ensure a seamless user experience. Through meticulous layout planning, I optimized the app\'s structure for intuitive navigation.',
-      'Leveraging Vue framework, I translated these insights into dynamic interfaces, ensuring smooth performance across devices. The app boasts a searchable Bible study database, interconnected resources, and responsive web pages.'
+      'I delved into a comprehensive branding process, aligning the app\'s visual identity with its purpose. This involved categorizing and organizing data to ensure a simple user experience. Through meticulous layout planning, I optimized the app\'s structure for intuitive navigation and smooth performance across devices.'
     ],
     methodImg:
     'https://davyjonesdesign.github.io/data-for-axios/assets/watermark/resources.jpg',
@@ -617,7 +616,7 @@ const data = [
 
     // Outcome
     outcome: [
-      'I successfully deployed the Watermark Web App using GitHub pages and shared it with friends and family. Moving forward, my focus is on maintaining user engagement and refining the user experience based on feedback. Continuous iterations will aim to enhance the app\'s functionality and address user needs.'
+      'I successfully deployed the Watermark Web App using GitHub pages. Moving forward, my focus is on maintaining user engagement and refining the user experience based on feedback. The app boasts a searchable Bible study database, interconnected resources, and responsive web pages.'
     ],
     outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/watermark/resources-2.jpg',
     outcomeCap: 'The resource links at the bottom of every study showing resources used with links'
@@ -628,7 +627,7 @@ const data = [
     alias: 'hums-whistles',
     title: 'Hums & Whistles Digital Instrument',
     subtitle:
-        'Dive into a world where hums and whistles blend with vibrant visuals, creating a one-of-a-kind digital instrument.',
+        'A project for my Programming for the Web class. Exploratory design meets experimental music in this digital instrument.',
     duration: 'Spring 2021',
 
     // tags
@@ -666,14 +665,11 @@ const data = [
 
     // Overview
     overview: [
-      'In Hums & Whistles, I wanted to make something cool where sound and visuals work together. I started by recording interesting hums and whistles. Then, using the P5 library, I turned these sounds into moving shapes on the screen. People can play with it by pressing keys to make sounds and colors happen at the same time.'
+      'Our project challenged us to design an instrument where sound and visuals work together. My wife hums and whistles with frequency, so I recorded them. Then, using the P5 library, I turned these sounds into moving shapes on the screen. It\'s a playable instrument using the keyboard keys, which trigger sound and visuals simultaneously.'
     ],
-    // overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/hums-whistles/hums-whistles.jpg',
-    // overviewCap: 'The home screen showing search and filter functionality for the available studies',
-
     // Method
     method: [
-      'First, I found cool hums and whistles to use. Then, I used the P5 library to make them into moving shapes on the screen. I made it simple for people to play with by pressing keys to make sounds and colors appear together.'
+      'First, I recorded my wife; then, I used the P5 library to make them into moving shapes on the screen. I decided on a simple user interaction, designing my instrument for people to play by pressing keys to make sounds and colors appear together.'
     ],
     // methodImg:
     // 'https://davyjonesdesign.github.io/data-for-axios/assets/watermark/resources.jpg',
@@ -681,7 +677,7 @@ const data = [
 
     // Outcome
     outcome: [
-      'The result? Hums & Whistles is a fun digital project that mixes sound and visuals. It\'s easy to use and shows how cool digital design can be. It\'s not just fun to play with — it also shows how we can use technology in creative ways. So, try it out and enjoy the mix of hums and whistles in a digital wonderland!'
+      'What I enjoyed most about this project was the great experiment of it all — the whole concept of designing a digital instrument was an engaging challenge, growing and stretching the way I think about functionality and design.'
     ],
     outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/hums-whistles/hums-whistles.jpg',
     outcomeCap: 'The Hums & Whistles digital instrument in use'
@@ -692,7 +688,7 @@ const data = [
     alias: 'motion-marble-roll',
     title: 'Marble Roll (3D) Motion Design',
     subtitle:
-        'A dynamic motion design featuring a 3D marble rolling through a crafted scene in Cinema 4D, aiming to create a compelling and entertaining video.',
+        'A Motion Design class project, featuring a 3D marble rolling designed with Cinema 4D.',
     duration: 'Fall 2022',
 
     // tags
@@ -706,9 +702,9 @@ const data = [
 
     // objectives
     objectives: [
-      'Create a captivating motion design piece',
+      'Create a believable motion design piece',
       'Showcase 3D modeling and animation skills',
-      'Demonstrate storytelling ability through motion'
+      'Demonstrate physics and gravity ability through motion to tell a story of sorts'
     ],
 
     // links
@@ -728,15 +724,15 @@ const data = [
 
     // Overview
     overview: [
-      'For the motion design course, I embarked on crafting a scene in Cinema 4D featuring a 3D marble rolling through a meticulously designed environment. The objective was to create an engaging and entertaining video that showcased my skills in 3D modeling, animation, and storytelling through motion. '
+      'For the Motion Design course, I created a scene in Cinema 4D featuring a 3D marble rolling off an edge. The objective was to create an engaging video that showcased 3D modeling, animation, and storytelling through motion.'
     ],
     overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/marble/moodboard.jpg',
     overviewCap: 'The moodboard I initially developed which lead a lot of the style of this project',
 
     // Method
     method: [
-      'I began by sketching out a storyboard to outline the scene and camera movements. Using Cinema 4D and After Effects, I constructed the elements, including surfaces, lighting, and camera angles, adhering to the storyboard\'s vision.',
-      'Experimenting with motion and troubleshooting, I ensured a smooth and believable roll for the marble, adjusting camera movements to enhance the flow. Attention was also given to lighting and sound to optimize the composition.'
+      'I sketched out a storyboard to outline the scene and camera movements. Using Cinema 4D and After Effects, I constructed the elements, including surfaces, lighting, and camera angles.',
+      'In order to ensure a smooth and believable roll for the marble, I experimented with camera movements. Lighting and sound were the next priority, involving a great deal of troubleshooting.'
     ],
     methodImg:
           'https://davyjonesdesign.github.io/data-for-axios/assets/marble/storyboard.jpg',
@@ -744,7 +740,7 @@ const data = [
     //
     // Outcome
     outcome: [
-      'The final motion design piece achieved the desired effect, meeting the criteria of being engaging and entertaining. The dynamic motion of the marble rolling through the scene, combined with well-executed camera movements and lighting, resulted in a visually captivating experience that showcased my creativity and technical skills in 3D animation.'
+      'The final motion design piece achieved the desired effect, meeting the criteria of being engaging and believable. I never imagined myself being able to design something this complex in motion design, but the opportunity to explore this challenge taught me many new 3D animation skills.'
     ],
     outcomeFrame: 'https://www.youtube.com/embed/wy0tEA_Qxfs?si=enkaMrf4xac4YlOH',
     outcomeCap: 'The final video version of the marble roll motion design'
@@ -755,7 +751,7 @@ const data = [
     alias: 'beakers-restaurant-',
     title: 'Beaker\'s Breakfast Restaurant Branding & Website',
     subtitle:
-        'Bringing to life a science-themed breakfast diner with a distinctive brand identity and website',
+        'Project for the Typography class. Bringing to life a science-themed breakfast diner with a distinctive brand identity and website. Combining my my two interests: Breakfast and Experimenting!',
     duration: 'Fall 2022',
 
     // tags
@@ -799,16 +795,16 @@ const data = [
 
     // Overview
     overview: [
-      'I embarked on the journey of crafting a brand identity for Beaker\'s Breakfast, infusing it with a captivating science theme.',
-      'The goal was to strike the perfect balance between fun and sophistication, steering clear of clichés while ensuring the brand remained timeless. The aim was to draw customers in with the subtle allure of science while delivering top-notch service.'
+      'I came up with a brand identity for Beaker\'s Breakfast, intentionally crafting a quirky, science theme.',
+      'The goal was to strike the perfect balance between fun and sophistication, steering clear of clichés while ensuring the brand remained timeless. The Cheesecake Factory was a source of inspiration in regards to brand; niche, but top notch.'
     ],
     overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/beakers/chalkboard-menu-mockup.jpg',
     overviewCap: 'The final walk-up menu styled to mimic a periodic table of elements and applied to chalkboard for a \'classroom\' aesthetic',
 
     // Method
     method: [
-      'Starting with brainstorming and sketching logo concepts, I explored different design elements to capture the essence of Beaker\'s Breakfast. After settling on the name and logo, I dove into creating a cohesive brand identity, incorporating colors, typography, and design elements.',
-      'Valuable feedback from classmates and instructors helped shape the brand, ensuring it resonated effectively.'
+      'I explored different logo concepts, some professional and some very campy in order capture the essence of Beaker\'s Breakfast. After settling on the name and logo, I dove into creating a cohesive brand identity, incorporating colors, typography, and design elements.',
+      'Valuable feedback from classmates and instructors shaped the brand, ensuring it resonated effectively.'
     ],
     methodImg:
           'https://davyjonesdesign.github.io/data-for-axios/assets/beakers/beakers-concept.jpg',
@@ -816,8 +812,8 @@ const data = [
     //
     // Outcome
     outcome: [
-      'The end result was a brand that truly embodied the spirit of a science-themed restaurant, blending whimsy with sophistication. From menus to building signage and the website, every deliverable reflected the brand\'s personality.',
-      'This project showcases my ability to creatively solve problems and apply design frameworks in real-world scenarios, demonstrating leadership potential in bringing a compelling brand identity to life.'
+      'The end result was a brand that was niche, sophisticated, and just whimsical enough. From menus to building signage and the website, every deliverable reflected the brand\'s personality.',
+      'This project honed my brand identity approach, and also served to remind me about the power of feedback. The input from my classmates helped me to see this brand from different perspectives, ultimately strengthening its design.'
     ],
     outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/beakers/web-home.jpg',
     outcomeCap: 'The Beaker\'s Breakfast website style to align with established branding guidelines'
