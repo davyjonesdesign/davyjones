@@ -133,6 +133,7 @@ span, .card-tag {
     background: var(--neutral-1);
     color: var(--text);
     border-color: var(--white);
+    box-shadow: none;
 }
 .text-link {
     display: flex;

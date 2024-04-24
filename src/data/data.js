@@ -4,7 +4,7 @@ const data = [
     alias: 'nln-application-transformation',
     title: 'NLN Application Transformation',
     subtitle:
-        'Crafted visually engaging 100-page NLN Center of Excellence applications for Purdue Northwest College of Nursing and Louisiana State University Health – New Orleans',
+        'Crafting visually engaging 100-page NLN Center of Excellence applications for Purdue Northwest College of Nursing and Louisiana State University Health – New Orleans',
     duration: 'Winter 2023',
 
     // tags
@@ -51,7 +51,7 @@ const data = [
 
     // Method
     method: [
-      'I started by digging into what didn\'t work in the previous application, focusing on layout, readability, and overall appeal. Then, I developed a solid design plan. I carefully chose typography to make sure everything was easy to read and organized the content in a way that flowed well. Using Purdue\'s branding guidelines, I kept everything consistent and visually appealing.',
+      'I dug into why their previous application failed. My design plan then reflected my finds, focusing on layout, readability, and overall appeal. I carefully chose typography to guarantee ease of readability and organized the content to seamlessly flow. Using Purdue\'s branding guidelines, I kept everything consistent and visually appealing.',
       'Throughout the process, I listened to feedback from the Dean and faculty, making adjustments to ensure the application reflected Purdue\'s strengths. This collaborative effort resulted in a visually engaging document that effectively told Purdue\'s story and secured the Center of Excellence designation.'
     ],
     methodImg:
@@ -61,7 +61,7 @@ const data = [
     // Outcome
     outcome: [
       'We finished the application well before the deadline, and the response from the Dean and faculty was overwhelmingly positive. Purdue proudly secured the NLN Center of Excellence designation as a result.',
-      'Building on this achievement, I extended my support to Louisiana State University - New Orleans, guiding them through a similar process. Together, we crafted an application that showcased their strengths, further solidifying their pursuit of excellence.'
+      'Building on this achievement, Purdue recommended my support to Louisiana State University - New Orleans. I led them through a similar process. Together, we crafted an application that showcased their strengths, further solidifying their pursuit of excellence. Their application is currently pending.'
     ],
     outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/nln-app/LSU-app.jpg',
     outcomeCap: 'LSU Health New Orlean\'s NLN application completed April 2024'
@@ -72,7 +72,7 @@ const data = [
     alias: 'breakfast-mural',
     title: 'Breakfast Mural Illustrative Typography',
     subtitle:
-        'I tackled a mural project during my Typography course, where I got to play with hand-drawn elements to represent the word "breakfast" in a creative way.',
+        'This project from my Typography course brought me a lot of joy and play. I got to experiment with hand-drawn elements to represent the word "breakfast" in a creative way. This was exploratory design at its most fun!',
     duration: 'Spring 2021',
 
     // tags
@@ -125,7 +125,7 @@ const data = [
     alias: 'wiki-ui',
     title: 'Wikipedia.org UX/UI Redesign',
     subtitle:
-        'Revamping Wikipedia.org\'s mobile interface for a more user-centric experience, emphasizing improved accessibility through strategic design choices. Ongoing efforts focus on iterative enhancements based on user feedback.',
+        'A private hobby project that involved revamping Wikipedia.org\'s mobile interface to a more user-centric experience, and emphasizing improved accessibility through strategic design choices. Ongoing efforts focus on iterative enhancements based on user feedback.',
     duration: 'Winter 2023',
 
     // tags
@@ -140,7 +140,10 @@ const data = [
     // objectives
     objectives: [
       'Significantly improve the user experience of wikipedia.org',
-      'Restructuring content, simplifying choices, emphasizing actionable items, and enhance contrast between visible elements',
+      'Restructure content',
+      'Simplify choices',
+      'Emphasizing actionable items',
+      'Enhance contrast between elements',
       'Keep familiar functionality the same'
     ],
 
@@ -164,7 +167,7 @@ const data = [
 
     // Overview
     overview: [
-      'Wikipedia.org\'s UI has seen minimal changes since its inception, reflecting an early 2000s internet style. Despite frequent use, the platform lacks significant updates, prompting a self-initiated UX/UI redesign.',
+      'Wikipedia.org\'s UI has seen minimal changes since its conception, reflecting an early 2000s internet style. Despite frequent use, the platform lacks significant updates, prompting a self-initiated UX/UI redesign.',
       'To address this, I am undertaking a UX/UI redesign of wikipedia.org, starting with the mobile landing page.  The redesign aims to simplify the user experience by restructuring content, emphasizing actionable items, and enhancing contrast between visible elements while keeping the site\'s functionality unchanged. My aim is to create a scalable design system for the entire site. This self-published project is not affiliated with Wikipedia.org professionally. The insights are personal, based on a heuristic approach due to limited access to user data.'
     ],
     overviewFrame: 'https://mega.nz/embed/WgxGUYia#QHH4sDRX01Uqjimn9bfLMLI-qQ6_U6ewGkg7aKen_H8',
@@ -173,8 +176,8 @@ const data = [
     // Method
     method: [
       'To ensure a user-centered design, I seek ongoing feedback from social media communities (LinkedIn, Instagram) and draw inspiration from UX best practices, with chatGPT serving as a model for its clean and simple design.',
-      'In the design phase, I made the search bar more accessible at the bottom of the screen for easier thumb tapping. Tertiary content was organized in a menu to streamline the landing page, and iconography was revamped for a consistent style within the new design system.',
-      'The color palette, tailored for both light and dark modes, ensures a clear and consistent user experience, prioritizing readability and comfort. These design decisions aim to enhance the usability of Wikipedia.org while preserving its familiar functionality.'
+      'I made the search bar more accessible at the bottom of the screen for easier thumb tapping. I organized tertiary content in a menu to streamline the landing page, while I revamped iconography for a consistent style within the new design system.',
+      'The color palette, tailored for both light and dark modes, ensures a clear and consistent user experience. I prioritized readability and comfort. I aimed to enhance the usability of Wikipedia.org while preserving its familiar functionality.'
     ],
     methodFrame:
           'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FjsPEUc856jJXDK2ZiRyuWX%2FwikiUI%3Ftype%3Ddesign%26node-id%3D29%253A1017%26mode%3Ddesign%26t%3DZyLXBVIa3RZY5iUs-1',
@@ -182,8 +185,8 @@ const data = [
 
     // Outcome
     outcome: [
-      'Ongoing work includes the redesign of the mobile landing screen, introducing a new menu and dark mode version. The simple flows include opening the menu with accordion items and toggling between light and dark mode. These serve as a foundation for user feedback and iterative improvements.',
-      'I plan to solicit feedback on the current design through social media and implement changes based on user input. The iterative redesign process will extend to various sections of Wikipedia.org.'
+      'The redesign of the mobile landing screen, introduction of a new menu and dark mode version are all ongoing. The simple flows include opening the menu with accordion items and toggling between light and dark mode. These serve as a foundation for user feedback and iterative improvements.',
+      'I plan to solicit feedback on the current design through social media and implement changes based on user input.'
     ],
     outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/wikiUI/wikiUI-proto-2.gif',
     outcomeCap: 'Wikipedia\'s initial UX/UI redesign prototype, showing the landing page. mobile menu interactions, and dark mode mini user journey.'
@@ -256,9 +259,8 @@ const data = [
 
     // Overview
     overview: [
-      'Many Bible readers miss crucial geographical, cultural, and historical contexts, limiting their connection with scripture.',
-      'To address this, I developed "Written in Stone," an interactive map providing easy access to biblical contexts.',
-      'By understanding these realities, readers will gain a deeper and more nuanced interpretation of the text.'
+      'Many Bible readers miss crucial geographical, cultural, and historical contexts, limiting their understanding of scripture.',
+      'To address this, I developed "Written in Stone," an interactive map providing easy access to ancient biblical contexts in history.By understanding these realities, readers will gain a deeper and more nuanced interpretation of the text.'
     ],
     overviewFrame: 'https://mega.nz/embed/29QVkBDQ#agm36-OO_ddieurb6XMd5N0H6kV0MkT_7eccppDD7mY',
     overviewCap: 'Capstone Presentation of Written in Stone at MCAD (August 10, 2023)',
@@ -266,7 +268,7 @@ const data = [
     // Method
     method: [
       'The journey began with thorough research, drawing inspiration from platforms like Urban Archive, leading to the development of a live web app. Starting with moodboards and basic brand design, I progressed to low-fidelity app sketches and then higher-fidelity wireframes. Alongside, I documented the evolving design system. Using tools like VS Code and Vue framework, the project took shape, complemented by a teaser motion graphic video.',
-      'Feedback from experts and potential users guided improvements, making the app more user-friendly. This iterative process refined functionality and interface, ensuring accessibility for all.'
+      'Experts and potential users guided improvements with their feedback. This iterative process refined functionality and interface, ensuring accessibility for all.'
     ],
     methodFrame:
           'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxLh7aq2HW1eUzrIFbNJlph%2FWIS_final%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D225-2746%26viewport%3D163%252C591%252C0.21%26t%3DzUxShCSIaIMP4QbO-1%26scaling%3Dscale-down-width%26starting-point-node-id%3D225%253A2746%26mode%3Ddesign',
@@ -275,7 +277,7 @@ const data = [
     // Outcome
     outcome: [
       '"Written in Stone" delivers on its goals: the teaser video effectively communicates the project\'s essence, the brand/design system exudes a clean, modern aesthetic, the Figma prototype previews current functionality and future enhancements, and the MVP Vue and Leaflet App allows users to explore biblical sites spatially.',
-      'Future plans include seamlessly integrating prototype styling and functions into the live app, developing a mobile version for increased accessibility, continuous research for refinement, and collaborating with partners in nonprofits and colleges to adapt the project to diverse user needs and contexts.'
+      'Future plans include integrating prototype styling and functions into the live app, developing a mobile version for increased accessibility, continuous research for refinement, and collaborating with partners in nonprofits and colleges to adapt the project to diverse user needs and contexts.'
     ],
     outcomeFrame: 'https://mega.nz/embed/b4AR2ZgT#8RqquOy9z7PCewdTFkVXwUYJrSwEtCNVSn2KAqNRDCc',
     outcomeCap: 'Marketing Teaser Ad Final Version for Written in Stone.'
@@ -286,7 +288,7 @@ const data = [
     alias: 'motion-football-frenzy',
     title: 'Football Frenzy Motion Design',
     subtitle:
-        'A dynamic motion design piece exploring collage style animation in a soccer game scenario, aimed at delivering a compelling and entertaining experience.',
+        'A dynamic motion design piece exploring collage style animation in a soccer game scenario, aimed to deliver a compelling and entertaining experience.',
     duration: 'Fall 2022',
 
     // tags
@@ -322,16 +324,16 @@ const data = [
 
     // Overview
     overview: [
-      'For the Motion Design course, I embarked on creating "Football Frenzy Motion Design" to delve into the realm of collage-style animation. My aim was to construct a vibrant scene from a soccer game, utilizing a variety of collage pieces to depict the pitch, goals, ball, players, stands, and fans.',
-      'The project aimed to deliver a short video that not only showcased technical proficiency but also captivated the audience with its energy and creativity.'
+      'For the Motion Design course, I created "Football Frenzy Motion Design" to delve into the realm of collage-style animation. My goal was to construct a vibrant scene from a soccer game, utilizing a variety of collage pieces to depict the pitch, goals, ball, players, stands, and fans.',
+      'The result is to deliver a short video that not only showcased technical proficiency but also captivated the audience.'
     ],
     overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/football-frenzy/moodboard.jpg',
     overviewCap: 'The moodboard I initially developed which lead a lot of the style of this project.',
 
     // Method
     method: [
-      'The creative process kicked off with moodboarding and storyboarding, setting the stage for the visual narrative to unfold. Armed with free images and a keen eye for detail, I meticulously crafted each element in Photoshop before integrating them into After Effects.',
-      'As the characters and ball danced across the screen, I played with camera angles and motion to inject energy and excitement into every frame.'
+      'The creative process kicked off with moodboarding and storyboarding, setting the stage for the visual narrative to unfold. Armed with free images and an eye for detail, I meticulously crafted each element in Photoshop before integrating them into After Effects.',
+      'As the characters and ball danced across the screen, I played with camera angles and motion to manufacture energy and excitement.'
     ],
     methodImg:
           'https://davyjonesdesign.github.io/data-for-axios/assets/football-frenzy/storyboard.jpg',
@@ -339,7 +341,7 @@ const data = [
     //
     // Outcome
     outcome: [
-      'The result? A mesmerizing animation that transcends expectations. With its kaleidoscope of colors and seamless transitions, "Football Frenzy Motion Design" transports viewers to the heart of the action, leaving them spellbound and craving for more. It\'s a testament to the endless possibilities of motion design and its ability to ignite imagination and stir emotions.'
+      'With its kaleidoscope of colors and seamless transitions, "Football Frenzy Motion Design" transports viewers to the heart of the action, with hopefully a few chuckles. It\'s a testament to the endless possibilities of motion design and its ability to ignite imagination and stir emotions.'
     ],
     outcomeFrame: 'https://mega.nz/embed/ypAHQDYb#e-fAP3uPQ-WDqINX0L3CBLt_LTS0JlyK6ZcJg33DZAc',
     outcomeCap: 'The final version of Football Frenzy, a motion design video'
@@ -349,7 +351,7 @@ const data = [
   {
     alias: 'Caps',
     title: 'Caps Magazine',
-    subtitle: 'The Trusted Mushroom Source',
+    subtitle: 'The Trusted Mushroom Source - final project for Typography',
     duration: 'Winter 2022',
     //
     // tags
@@ -362,13 +364,13 @@ const data = [
     mainImg:
       'https://davyjonesdesign.github.io/data-for-axios/assets/caps-magazine/magazine-mockup.jpg',
     mainCap: [
-      "For my final project in a Master's Typography course, I was tasked with designing a magazine from scratch."
+      "For my final project in a Master's Typography course, I designed a magazine from scratch"
     ],
     //
     // objectives
     objectives: [
       'Design a premium, earthy and vintage magazine to be published on a quarterly basis',
-      'The magazine would all things mushrooms for amateur and seasoned mushroom enthusiasts throughout the US'
+      'The magazine would be all things mushrooms for amateur and seasoned mushroom enthusiasts throughout the US'
     ],
     //
     // links
@@ -387,7 +389,7 @@ const data = [
     //
     // overview
     overview: [
-      'For Caps Magazine, the objective was to create a premium publication catering to mushroom enthusiasts across the United States. The magazine needed to embody a sense of trustworthiness while maintaining a connection to the natural world and a vintage aesthetic.'
+      'Caps Magazine is my premium publication catering to mushroom enthusiasts. The magazine needed to embody a sense of trustworthiness while maintaining a connection to the natural world and a vintage aesthetic.'
     ],
     overviewFrame:
       'https://indd.adobe.com/embed/85283b4a-ccfd-4901-81c5-e139d23fa37f?startpage=1&allowFullscreen=true',
@@ -395,8 +397,8 @@ const data = [
     //
     // research
     method: [
-      'I started by creating a moodboard where I compiled a few visual and contextual touchpoints I wanted to keep in scope. After iterating out a masthead, I then began developing the front cover, table of contents, centerspread, and style guide.',
-      'After many round of peer reviews, I finalized all assets and mocked up a printed version.'
+      'I started by creating a moodboard where I compiled a few visual and contextual touchpoints I wanted to keep in scope. After iterating a masthead, I began developing the front cover, table of contents, centerspread, and style guide.',
+      'After many rounds of peer reviews, I finalized all assets and mocked up a printed version.'
     ],
     methodImg:
       'https://davyjonesdesign.github.io/data-for-axios/assets/caps-magazine/magazine-styleguide.jpg',
@@ -454,8 +456,8 @@ const data = [
 
     // Overview
     overview: [
-      'In the Motion Design course, I embarked on a project to animate a cafe scene, aiming to create an immersive experience that would both entertain and captivate. My vision was to depict a bustling cafe atmosphere, complete with rain outside, bustling activity within, and flickering neon signs in the background.',
-      'To achieve this, I meticulously planned out the scene\'s elements and actions, ensuring a coherent and engaging narrative. Each aspect, from the rain in the foreground to the bustling activity inside, was carefully crafted to contribute to the overall ambiance and story.'
+      'In the Motion Design course, I took on a project to animate a cafe scene, creating an immersive experience that would both entertain and captivate. My vision was to depict a quiet cafe atmosphere, complete with rain outside, subtle mystery within, and flickering neon signs in the background.',
+      'To achieve this, I planned out the scene\'s elements and actions, ensuring a coherent and engaging narrative. Each aspect, from the rain in the foreground to the cafe customer, was carefully crafted the overall ambiance and story.'
     ],
     overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/cafe-noir/moodboard.jpg',
     overviewCap: 'The moodboard I initially developed which lead a lot of the style of this project.',
@@ -463,7 +465,7 @@ const data = [
     // Method
     method: [
       'The journey began with rough sketches and storyboards to flesh out the scene\'s progression and elements. From there, I delved into creating the base illustrations using Adobe Illustrator, ensuring each element captured the essence of the cafe environment.',
-      'With the illustrations in place, I transitioned to Adobe After Effects to breathe life into the scene through animation. Each element, from the swirling steam of the coffee to the flickering neon signs, was animated with precision and care, bringing depth and movement to the scene.'
+      'With the illustrations in place, I transitioned to Adobe After Effects to breathe life into the scene through animation. I took care to intentionally design my elements for the nostalgic mystery typically found in noir detective aesthetics.'
     ],
     methodImg:
           'https://davyjonesdesign.github.io/data-for-axios/assets/cafe-noir/storyboard.jpg',

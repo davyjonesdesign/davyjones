@@ -21,8 +21,8 @@
         gap: var(--xs);
         flex-wrap: nowrap;
         padding-right: 5px;
-    
         button {
+            display: flex;
             &:hover {
                 border-color: var(--neutral-2);
                 background: var(--white);
@@ -48,7 +48,6 @@
                 
 
             }
-
         }
     }
 }
@@ -100,6 +99,7 @@
                 align-self: center;
                 justify-self: center;
                 min-width: 100%;
+                display: flex;
             }
         }
         .projectCard-content {
@@ -136,6 +136,7 @@
                 justify-content: flex-start;
                 width: 100%;
                 padding-top: var(--xxs);
+                box-shadow: none;
                 
             }
         }
