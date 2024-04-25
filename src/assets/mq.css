@@ -267,3 +267,19 @@
 @media (hover: none)  {
     
 }
+
+.card-tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+.visual-wrapper {
+    display: flex;
+    align-items: center;
+}
+.projectCard-visual {
+    display: flex;
+    align-items: center;
+}
+.projectCard-content {
+    display: flex;
+}
