@@ -357,7 +357,8 @@ const data = [
     // tags
     tag: [
       'Publication',
-      'Brand'
+      'Brand',
+      'Illustration'
     ],
     //
     // main img
@@ -423,7 +424,8 @@ const data = [
 
     // tags
     tag: [
-      'Motion Graphic'
+      'Motion Graphic',
+      'Illustration'
     ],
 
     // main img
