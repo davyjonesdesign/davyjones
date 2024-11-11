@@ -12,6 +12,7 @@
     top: 0px;
     z-index: 0;
     transition: 0.3s ease-in-out;
+
     .navbarSkinny {
         flex-direction: row;
         width: 100%;
@@ -19,20 +20,23 @@
         justify-content: space-between;
         align-items: center;
         min-height: 46px;
-        
+
     }
+
     .brand {
         display: flex;
         align-items: center;
         gap: var(--md-2);
     }
+
     .navLinks {
         display: flex;
         justify-content: flex-end;
         align-items: flex-start;
         gap: var(--xxs);
     }
-    a {
+
+    .navLinks a {
         font-weight: 700;
         color: var(--neutral-1);
         display: flex;
@@ -43,32 +47,41 @@
         color: var(--shallow-2, #B5D2FF);
         text-align: center;
         height: 30px;
+
         &:hover {
             border-bottom-color: var(--shallow-2);
         }
-        &.router-link-exact-active, &:active {
+
+        &.router-link-exact-active,
+        &:active {
             border-bottom-color: var(--neutral-1, #E7E7ED);
             color: var(--neutral-1);
         }
+
         &:active svg {
             fill: var(--neutral-1);
         }
-        }
-        h3 {
+    }
+
+    h3 {
         color: var(--neutral-1);
         font-weight: 700;
-        }
-        h4 {
-            color: var(--neutral-1);
-            max-width: 620px;
-        }
-        .logo {
+    }
+
+    h4 {
+        color: var(--neutral-1);
+        max-width: 620px;
+    }
+
+    .logo {
         height: 36px;
+
         path {
             fill: var(--neutral-1);
-    }
+        }
     }
 }
+
 .shrink {
     padding: var(--xs) var(--xl) 0px var(--xl);
     height: 54px;
@@ -79,9 +92,9 @@
     h3 {
         transition: 0.3s ease-in-out;
 
-        opacity: 0;  
+        opacity: 0;
     }
-  }
+}
 
 .navLinks-mobile {
     display: none;

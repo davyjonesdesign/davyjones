@@ -3,8 +3,8 @@
     flex-direction: row;
     align-items: center;
     gap: var(--sm);
-    justify-content: center;
-    padding: var(--xs) var(--xxl);
+    justify-content: flex-start;
+    padding: 0 var(--xxl);
     .tags-label {
         text-align: center;
         margin: 0;
@@ -53,8 +53,8 @@
 
 .page-heading {
     display: flex;
-    padding: var(--lg) var(--xxl) var(--xs);
-    justify-content: center;
+    padding: var(--lg) var(--xxl) 0;
+    justify-content: flex-start;
     align-items: flex-start;
     align-content: flex-start;
     gap: var(--lg);
@@ -62,7 +62,7 @@
     flex-wrap: wrap;
     margin: 0;
     color: var(--subtext);
-    text-align: center;
+    text-align: left;
 }
 .project-section {
     display: flex;

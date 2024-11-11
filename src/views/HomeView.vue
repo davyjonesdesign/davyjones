@@ -1,15 +1,17 @@
 <template>
       <div class="page-wrap">
        
-        <h2 class="page-heading">Projects</h2>
-        <!-- Tag buttons -->
-        <div class="taglabel-section">
-            <p class="tags-label">Filter by:</p>
+        <div class="page-header">
+            <h2 class="page-heading">Projects</h2>
+            <!-- Tag buttons -->
+            <div class="taglabel-section">
+                <p class="tags-label">Filter by:</p>
 
-            <div class="tag-section">
+                <div class="tag-section">
 
-                <button v-for="tag in uniqueTags" :key="tag" @click="filterProjects(tag)" :class="{ active: tags.includes(tag) }">{{ tag }}</button>
-            </div>
+                    <button v-for="tag in uniqueTags" :key="tag" @click="filterProjects(tag)" :class="{ active: tags.includes(tag) }">{{ tag }}</button>
+                </div>
+        </div>
         </div>
         <!-- Project cards filtered by selected tags -->
         <div class="project-section">

@@ -3,7 +3,9 @@
     flex-direction: row;
     padding: var(--xl) var(--xxl);
     gap: var(--xl);
-    margin-top: 400px;
+    /* margin-top: 400px; */
+    max-width: 1200px;
+    
     h3 {
         margin: var(--md) 0;
         padding-bottom: var(--xs);

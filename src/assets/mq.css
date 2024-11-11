@@ -62,7 +62,7 @@
         margin-top: 63px;
     }
     .taglabel-section {
-        padding: var(--xs) 0 0 var(--xs);
+        padding: 0 0 0 40px;
         .tag-section {
             /* justify-content: flex-start; */
             /* padding: var(--xs); */
@@ -78,14 +78,14 @@
 @media only screen and (max-width: 600px) {
     .taglabel-section {
         ::-webkit-scrollbar {
-            display: none;
+            /* display: none; */
         }
-        align-items: center;
-        overflow: scroll;
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
+        /* align-items: center; */
+        /* overflow: scroll; */
+        /* -ms-overflow-style: none;  IE and Edge */
+        /* scrollbar-width: none;  Firefox */
         .tag-section {
-            flex-wrap: nowrap;
+            /* flex-wrap: nowrap; */
             padding: 10px 0;
         }
     }

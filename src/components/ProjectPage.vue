@@ -57,7 +57,6 @@ export default {
                 </div>
 
             </div>
-
             <div class="data-visual">
                 <img
                     class="projectCard-visual"

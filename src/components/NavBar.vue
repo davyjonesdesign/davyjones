@@ -1,19 +1,19 @@
 <template>
     <nav class="navbar">
-        <div class="navbarSkinny">
+        <router-link class="navbarSkinny" to="/">
             <div class="brand">
                 <LogoIcon />
                 <h3>Davy Jones</h3>
             </div>
             <div class="navLinks">
-                <router-link to="/">Home</router-link>
+                <router-link to="/">Projects</router-link>
                 <router-link to="/resume">Resume</router-link>
                 <SocialLinks />
             </div>
-        </div>
+        </router-link>
         <h4>
-            Hi, I’m Davy Jones.<br>
-            A Senior UI Designer at Wheels, with 8+ years' experience in graphic and web design, focusing on user-centric solutions and collaboration. MA graduate from MCAD, passionate about <strong>continual learning</strong> and <strong>experimental design</strong>.
+            Hi, I’m Davy Jones.<br><br>
+            I am senior UI designer, an expert in Design Systems, High-Fidelity Prototyping, and User-Centered Solutions.
         </h4>
     </nav>
 </template>
