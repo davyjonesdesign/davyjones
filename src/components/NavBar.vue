@@ -1,16 +1,16 @@
 <template>
     <nav class="navbar">
-        <router-link class="navbarSkinny" to="/">
-            <div class="brand">
+        <div class= "navbarSkinny">
+            <router-link to="/" class="brand">
                 <LogoIcon />
                 <h3>Davy Jones</h3>
-            </div>
+            </router-link>
             <div class="navLinks">
                 <router-link to="/">Projects</router-link>
                 <router-link to="/resume">Resume</router-link>
                 <SocialLinks />
             </div>
-        </router-link>
+        </div>
         <h4>
             Hi, I’m Davy Jones.<br><br>
             I am senior UI designer, an expert in Design Systems, High-Fidelity Prototyping, and User-Centered Solutions.
