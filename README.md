@@ -1,10 +1,38 @@
-# davyjones
+# davyjones-2.0
+ My portfolio site reimagined and updated (2.0!)
 
-## Van Derlip Scholarship Portfolio Site
-```
-This is Davy Jones' portfolio website he submitted for the 2023 Van Derlip
-Scholarship for the Master of Arts in Graphic and Web Design Program.
+### Live Site
+https://davyjones.me
 
-It consists of projects completed throughout his time at Minneapolis College of Art and Design
+### Build Process
+1. Create new branch name build-x.x.x (x = version)
+2. Open Vue UI and Serve to make sure App is still running properly
+3. Go to Build and 'Run Task'
+4. Delete 'src' and 'public' folders
+5. Delete 'babel.config.js', 'package-lock.json', and package.json files
+6. Move all files in 'dist' folder outside to top folder
+7. Delete 'dist' folder when it has been emptied
+8. Add the following code below the title in index.html
 ```
-See [live site](https://mcad.davyjones.me/).
+<!-- place under title  -->
+    <script>
+        (function (l) {
+            if (l.search[1] === "/") {
+            var decoded = l.search
+                .slice(1)
+                .split("&")
+                .map(function (s) {
+                return s.replace(/~and~/g, "&");
+                })
+                .join("?");
+            window.history.replaceState(
+                null,
+                null,
+                l.pathname.slice(0, -1) + decoded + l.hash
+            );
+            }
+        })(window.location);
+    </script>
+```
+9. Push the build branch
+10. Go to 'Pages' in GitHub Settings and select the new branch in the dropdown under 'Branch' in 'Build and deployment'
