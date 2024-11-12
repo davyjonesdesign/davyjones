@@ -109,7 +109,7 @@ a {
 }
 button, span, .card-tag {
     display: flex;
-    padding: var(--xs) var(--md);
+    padding: var(--xxs) var(--xs);
     justify-content: center;
     align-items: center;
     gap: var(--xs);
@@ -117,12 +117,12 @@ button, span, .card-tag {
     border: 2px solid var(--white);
     box-shadow: var(--card-shadow-2);
     background: var(--white);
-    color: var(--deep-3);
+    color: var(--deep-1);
     white-space: nowrap;
     text-align: center;
     leading-trim: both;
     text-edge: cap;
-    font-size: 16px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
@@ -159,8 +159,8 @@ span, .card-tag {
     text-transform: capitalize;
     text-align: left;
     svg {
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
         fill: var(--links);
     } &:hover {
             text-decoration: underline;
@@ -192,10 +192,11 @@ footer {
         }
     }
     .footer-link {
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: 600;
         & svg {
-            width: 20px;
-            height: 20px;
+            width: 15px;
+            height: 15px;
         }
     }
 }
@@ -208,8 +209,25 @@ footer {
     z-index: 100;
     .page-header {
         display: flex;
-        flex-direction: column;
-        gap: var(--xs);
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: var(--lg) var(--xl) 0;
+    }
+    .page-textlink {
+        padding: 0 var(--xl) 0;
+    }
+    .page-heading {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        align-self: stretch;
+        flex-wrap: wrap;
+        margin: 0;
+        color: var(--subtext);
+        text-align: left;
+        padding-bottom: 0;
     }
     .resume-link {
         color: var(--links);

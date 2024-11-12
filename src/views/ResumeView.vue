@@ -18,8 +18,8 @@ export default {
 
 <template>
   <div class="page-wrap">
-    <h2 class="page-heading">Resume</h2>
-    <div class="taglabel-section">
+    <h2 class="page-header">Resume</h2>
+    <div class="page-textlink">
       <text-link 
       url="/files/JonesDavy_SrUIDesigner_2024.pdf"
       download 

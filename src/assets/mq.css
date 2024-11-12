@@ -9,12 +9,17 @@
             flex: 1;
         }
     }
+    .page-wrap {
+        .page-header {
+            flex-direction: column;
+        }
+    }
+    
     .taglabel-section {
-        padding: var(--xs) 0 0 var(--xxl);
+        margin-top: var(--sm);
         flex-direction: row;
-        gap: var(--xs);
-        justify-content: flex-start;
-        align-items: flex-start;
+            align-items: flex-start;
+            gap: var(--xs);
         .tag-section {
             flex-wrap: wrap;
         }
@@ -62,11 +67,6 @@
         margin-top: 63px;
     }
     .taglabel-section {
-        padding: 0 0 0 40px;
-        .tag-section {
-            /* justify-content: flex-start; */
-            /* padding: var(--xs); */
-        }
         .tag-section-label {
                 text-align: left;
             }

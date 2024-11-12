@@ -4,7 +4,7 @@
     align-items: center;
     gap: var(--sm);
     justify-content: flex-start;
-    padding: 0 var(--xxl);
+    padding: 0;
     .tags-label {
         text-align: center;
         margin: 0;
@@ -49,24 +49,9 @@
         }
     }
 }
-
-
-.page-heading {
-    display: flex;
-    padding: var(--lg) var(--xxl) 0;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    gap: var(--lg);
-    align-self: stretch;
-    flex-wrap: wrap;
-    margin: 0;
-    color: var(--subtext);
-    text-align: left;
-}
 .project-section {
     display: flex;
-    padding: var(--lg) var(--xxl);
+    padding: var(--lg) var(--xl);
     align-items: flex-start;
     justify-content: center;
     align-content: flex-start;

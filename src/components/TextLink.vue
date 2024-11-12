@@ -4,9 +4,7 @@
         <div class="link-text">{{ text }}</div>
       </router-link>
       <a class="text-link" v-else :href="url" target="_blank">
-        <div v-if="showIcon">
-          <component :is="icon" class="icon"></component>
-        </div>
+          <component v-if="showIcon" :is="icon" class="icon"></component>
         <div class="link-text">{{ text }}</div>
       </a>
   </template>

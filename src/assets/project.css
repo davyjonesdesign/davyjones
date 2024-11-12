@@ -1,8 +1,7 @@
 .project-page {
     margin-top: 64px;
     h3 {
-    margin-bottom: var(--md);
-
+        margin-bottom: var(--md);
     }
 }
 
@@ -15,13 +14,12 @@
 
     h3 {
         transition: 0.3s ease-in-out;
-
         opacity: 0;  
     }
 }
 .data-header {
     display: flex;
-    padding: var(--xl) var(--xxl) var(--md);
+    padding: var(--xl) var(--xl) var(--md);
     flex-direction: row;
     gap: var(--md);
     display: flex;
@@ -56,7 +54,7 @@
 
 .dataCards-section {
     display: flex;
-    padding: var(--xl) var(--xxl);
+    padding: var(--xl) var(--xl);
     align-items: flex-start;
     gap: var(--lg);
     align-items: stretch;
@@ -106,7 +104,7 @@
 }
 .data-section {
     display: flex;
-    padding: var(--xl) var(--xxl);
+    padding: var(--xl) var(--xl);
     flex-direction: column;
     align-items: center;
     gap: var(--xl);
