@@ -75,7 +75,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+            /* border-radius: 0 0 var(--radius-lg) var(--radius-lg); */
+            border-bottom: 1px solid var(--neutral-2);
             .projectCard-visual {
                 display: flex;
                 height: 250px;

@@ -46,7 +46,8 @@
 
         img {
             width: 100%;
-            border-radius: var(--radius-lg);
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--neutral-2);
     
         }
     }
@@ -56,7 +57,7 @@
     display: flex;
     padding: var(--xl) var(--xl);
     align-items: flex-start;
-    gap: var(--lg);
+    gap: var(--md);
     align-items: stretch;
     max-width: 1200px;
     margin: 0 auto;
@@ -64,14 +65,14 @@
     
     .dataCard {
         display: flex;
-        padding: var(--md) var(--md) var(--md) var(--sm);
+        padding: var(--sm);
         flex-direction: column;
         align-items: flex-start;
         gap: var(--sm);
         flex: 1;
-        border-radius: var(--xs);
-        border: 1px solid var(--neutral-3);
-        background: var(--white);
+        /* border-radius: var(--xs); */
+        /* border: 1px solid var(--neutral-3); */
+        background: var(--neutral-2);
         .link-text {
             font-size: 16px;
         }
@@ -87,7 +88,6 @@
         }
         .dataCard-title {
             display: flex;
-            padding-bottom: var(--sm);
             align-items: flex-start;
             gap: var(--xs);
             align-self: stretch;
@@ -132,6 +132,7 @@
             width: 100%;
             flex: 1 0 0;
             border-radius: var(--radius-sm);
+            border: 1px solid var(--neutral-2);
         }
         .data-visual iframe {
             aspect-ratio: 16 / 9;

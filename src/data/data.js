@@ -1,4 +1,247 @@
 const data = [
+  // Wheels React Native Paper
+  {
+    alias: 'wheels-paper',
+    title: 'Wheels React Native Paper Design System',
+    subtitle:
+        'Translating the Wheels design system into a framework-specific system to guide the redesign of the driver experience app and maintain consistency across mobile applications.',
+    duration: 'Summer - Fall 2024',
+
+    // tags
+    tag: [
+      'Wheels',
+      'React'
+    ],
+
+    // main img
+    mainImg: 'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/paper-de.gif?raw=true',
+    mainCap: 'Prototype of driver experience app home screen using the React Native Paper design system.',
+
+    // objectives
+    objectives: [
+      'Develop a React Native Paper-specific design system aligned with Wheels branding',
+      'Support the redesign of the driver experience app with scalable, accessible patterns',
+      'Establish a single source of truth for all mobile app design decisions'
+    ],
+
+    // links
+    links: [
+      {
+        link: 'https://callstack.github.io/react-native-paper/',
+        linkDescription: 'React Native Paper'
+      }
+    ],
+
+    // toolbox
+    tools: [
+      'Figma',
+      'React Native Paper',
+      'Frontify'
+    ],
+
+    // Overview
+    overview: [
+      'Following the decision to use React Native Paper for app UI, I led translation of the Wheels design system to match the framework\'s components. This effort ensured that the app redesign aligned with the new brand and design principles while leveraging the capabilities of React Native Paper.'
+    ],
+    overviewImg: 'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/paper-figcomp.jpg?raw=true',
+    overviewCap: 'Figma components adapted for React Native Paper',
+
+    // Method
+    method: [
+      'Starting with the foundational Wheels design system, I adjusted styles, colors, and components to fit React Native Paper’s specific requirements. I collaborated with developers and UX designers to ensure the design system supported seamless implementation, iterating on components as necessary for consistency and performance.',
+      'Throughout the process, I documented guidelines and specifications in Frontify to align stakeholders, including product owners and developers, ensuring the emerging design system became a reliable point of truth.'
+    ],
+    methodImg:
+          'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/paper-compare.jpg?raw=true',
+    methodCap: 'A comparison showing evolution from the base system to the React Native Paper-specific system',
+
+    // Outcome
+    outcome: [
+      'The transformed design system enabled a cohesive app UI that adheres to the Wheels brand while maximizing the capabilities of React Native Paper. The driver experience app redesign continues to evolve with this system, improving usability and consistency across features. The design system has also become a shared resource, fostering collaboration and alignment across teams.'
+    ],
+    outcomeImg: 'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/wass-documentation.jpg?raw=true',
+    outcomeCap: 'Example of Paper (mobile) object guidelines from the Frontify documentation detailing the horizontal card component'
+  },
+
+  // Wheels KendoReact
+  {
+    alias: 'wheels-kendo',
+    title: 'Wheels KendoReact Design System',
+    subtitle:
+        'Adapted the Wheels design system to KendoReact, enabling seamless application to the Renewals web app and future web-based projects.',
+    duration: 'Summer - Fall 2024',
+
+    // tags
+    tag: [
+      'Wheels',
+      'React'
+    ],
+
+    // main img
+    mainImg: 'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/kendo-ren2.gif?raw=true',
+    mainCap: 'Gif showing prototype of Renewals application details page',
+
+    // objectives
+    objectives: [
+      'Align the Wheels design system with KendoReact components for consistent web app UI.',
+      'Enhance UX across web applications with scalable design patterns',
+      'Support the Renewals web app as the first project under the unified design system'
+    ],
+
+    // links
+    links: [
+      {
+        link: 'https://www.telerik.com/kendo-react-ui',
+        linkDescription: 'Kendo React UI'
+      },
+      {
+        link: 'https://www.telerik.com/themebuilder',
+        linkDescription: 'Kendo React ThemeBuilder'
+      }
+    ],
+
+    // toolbox
+    tools: [
+      'Figma',
+      'KendoReact Components',
+      'Kendo ThemeBuilder'
+    ],
+
+    // Overview
+    overview: [
+      'As Wheels moved to standardize its web application UI, the decision to use KendoReact offered an opportunity to align the design system with this framework. I led the adaptation process, ensuring the system supported KendoReact\'s components and styling capabilities while maintaining brand consistency.'
+    ],
+    overviewImg:
+    'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/kendo-buttons.jpg?raw=true',
+    overviewCap: 'Screenshot of a tailored Kendo Design System components (buttons and other controls)',
+
+    // Method
+    method: [
+      'The process began by forking the original design system to align with KendoReact’s component structures. I redefined styles and layouts to fit the framework, testing designs within the ThemeBuilder tool to ensure compatibility and responsiveness. Collaboration with other UX designers and developers was critical to validate the system’s performance in production environments.',
+      'I also prioritized accessibility and led thorough audits to maintain alignment with WCAG standards. All guidelines and updates were documented in Frontify, creating a resource for designers and developers working on the Renewals web app and future projects.'
+    ],
+    methodImg: 'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/kendo-tb.jpg?raw=true',
+    methodCap: 'Screenshot of Kendo ThemeBuilder main components',
+
+    // Outcome
+    outcome: [
+      'The KendoReact design system successfully enhanced UX across the Renewals web app, improving workflows for renewal processing. It has since become the cornerstone for web application development at Wheels, streamlining design-to-development processes and establishing a unified, scalable approach for future projects.'
+    ],
+    outcomeImg: 'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/kendo-doc.jpg?raw=true',
+    outcomeCap: 'Example of Kendo object guidelines from the Frontify documentation detailing the checkbox component'
+  },
+
+  // Wheels Assets
+  {
+    alias: 'wheels-assets',
+    title: 'Wheels Asset Libraries',
+    subtitle:
+        'Developed dedicated Figma asset libraries for icons and vehicle images to ensure consistency, scalability, and seamless integration into Wheels’ larger design systems.',
+    duration: 'Summer 2024',
+
+    // tags
+    tag: [
+      'Wheels'
+    ],
+
+    // main img
+    mainImg: 'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/wass-vehimg.jpg?raw=true',
+    mainCap: 'Vehicle image grid showcasing standard sizes and layouts',
+
+    // objectives
+    objectives: [
+      'Create standalone, well-structured asset libraries for icons and vehicle images',
+      'Standardize asset sizes, placements, and constraints to align with larger design systems',
+      'Facilitate efficient use of assets in components and patterns for web and app UIs'
+    ],
+
+    // links
+
+    // toolbox
+    tools: [
+      'Figma'
+    ],
+
+    // Overview
+    overview: [
+      'To support the new Wheels design systems and ensure brand and component alignment, I created two centralized Figma libraries: an icon library and a vehicle image library. These asset libraries ensured consistency in usage across components and applications, improving efficiency and design integrity.'
+    ],
+    // main img
+    overviewImg: 'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/wass-icons.jpg?raw=true',
+    overviewCap: 'Figma view of the icon library',
+
+    // Method
+    method: [
+      'For the icon library, I curated a unified set of icons, ensuring alignment in style, size, and usability. Each icon was adjusted for clarity and compatibility at various scales, following accessibility best practices. For the vehicle image library, I standardized dimensions and layouts, optimizing images for seamless integration into data grids, cards, and full-page views.',
+      'Both libraries included naming conventions and constraints to simplify use and avoid misapplication. Guidelines were documented to provide clear instructions for designers and developers.'
+    ],
+    methodImg:
+          'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/wass-grid-cards.jpg?raw=true',
+    methodCap: 'Screenshot of a data grid or card component with integrated icons and vehicle images',
+
+    // Outcome
+    outcome: [
+      'The asset libraries became essential resources within the larger design systems, enabling consistent and efficient asset use across products. Designers and developers could now easily integrate icons and vehicle images into components, improving workflows and ensuring brand cohesion. These libraries continue to support ongoing and future projects, solidifying their role in Wheels’ design ecosystem.'
+    ],
+    outcomeImg: 'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/wass-documentation.jpg?raw=true',
+    outcomeCap: 'Example of guidelines from the Frontify documentation detailing asset usage'
+  },
+
+  // Wheels 1.0
+  {
+    alias: 'wheels-base',
+    title: 'Wheels Design System 1.0',
+    subtitle:
+        'Developed an initial design system encompassing Figma colors, styles, components, and patterns to align with the Wheels rebrand and guide future design efforts.',
+    duration: 'Winter 2024',
+
+    // tags
+    tag: [
+      'Wheels'
+    ],
+
+    // main img
+    mainImg: 'https://raw.githubusercontent.com/davyjonesdesign/data-for-axios/ab41b499627555ccbaf749e82e787e825827f916/assets/whds-cover.jpg',
+    mainCap: 'Original Wheels design system cover image, originally nicknamed \'Engine\'',
+
+    // objectives
+    objectives: [
+      'Establish a foundational design system reflecting the new Wheels brand',
+      'Inspire subsequent design systems for specific frameworks (KendoReact and React Native Paper)',
+      'Provide a cohesive starting point for design alignment despite technological uncertainties'
+    ],
+
+    // links
+
+    // toolbox
+    tools: [
+      'Figma'
+    ],
+
+    // Overview
+    overview: [
+      'After Wheels merged with two other companies and underwent a rebranding effort, it became critical to establish a new design system to unify the UI across platforms and applications. As the lead UI designer, I spearheaded the creation of the foundational Figma design system that informed subsequent framework-specific systems.'
+    ],
+    overviewImg: 'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/whds-variables.jpg?raw=true',
+    overviewCap: 'Screenshots of Design System 1.0 showcasing tokens (colors, typography, effects).',
+
+    // Method
+    method: [
+      'Without the advantage of predetermined front-end technology decisions, I focused on creating a flexible and robust system in Figma. This involved defining a comprehensive library of colors, typography, effects, and components that adhered to brand standards while allowing room for scalability. Every component and pattern was designed with user accessibility in mind, following WCAG guidelines.',
+      'Despite the challenges of working without a defined framework, this foundational design system served as an essential blueprint for future implementations with technologies like KendoReact and React Native Paper.'
+    ],
+    methodImg:
+          'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/whds-controls.jpg?raw=true',
+    methodCap: 'Screenshots of foundational components and patterns.',
+
+    // Outcome
+    outcome: [
+      'The base design system became a pivotal resource for Wheels\' unified UI, fostering consistency across platforms. It inspired the creation of subsequent framework-specific systems and accelerated the development process by providing clear, reusable assets. Its flexibility enabled the team to adapt it seamlessly as technology decisions were made, setting the stage for scalable design and development practices.'
+    ],
+    outcomeImg: 'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/whds-diagram.jpg?raw=true',
+    outcomeCap: 'Diagram illustrating the workflow and transition from base system to framework-specific systems.'
+  },
+
   // WikiUI redesign
   {
     alias: 'wiki-ui',
@@ -9,7 +252,7 @@ const data = [
 
     // tags
     tag: [
-      'UX/UI'
+      'Self-directed'
     ],
 
     // main img
@@ -81,8 +324,7 @@ const data = [
 
     // tags
     tag: [
-      'UX/UI',
-      'Brand'
+      'MCAD'
     ],
 
     // main img
@@ -150,9 +392,8 @@ const data = [
 
     // tags
     tag: [
-      'UX/UI',
-      'Brand',
-      'Development'
+      'MCAD',
+      'Vue'
     ],
 
     // main img
@@ -241,9 +482,8 @@ const data = [
 
     // tags
     tag: [
-      'UX/UI',
-      'Brand',
-      'Development'
+      'Self-directed',
+      'Vue'
     ],
 
     // main img
@@ -325,9 +565,8 @@ const data = [
 
     // tags
     tag: [
-      'UX/UI',
-      'Brand',
-      'Development'
+      'Self-directed',
+      'MCAD'
     ],
 
     // main img
@@ -386,257 +625,257 @@ const data = [
     ],
     outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/watermark/resources-2.jpg',
     outcomeCap: 'The resource links at the bottom of every study showing resources used with links'
-  },
-
-  // Forward App
-  {
-    alias: 'forward',
-    title: 'Forward Brand/Web',
-    subtitle:
-        'A full brand and website design for an industrial marketing agency',
-    duration: 'Spring 2020',
-
-    // tags
-    tag: [
-      'UX/UI',
-      'Brand'
-    ],
-
-    // main img
-    mainImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/fwd/forward-splash.jpg',
-    mainCap: 'Forward marketing agency web design mockups on laptop and laid out on desk',
-
-    // objectives
-    objectives: [
-      'Create a market-leading brand and website',
-      'Fulfill the growing industrial marketing needs',
-      'Emphasize expertise and proven methods for increasing organic traffic'
-    ],
-
-    // toolbox
-    tools: [
-      'Adobe Photoshop',
-      'Adobe Illustrator',
-      'InVision'
-    ],
-
-    // Overview
-    overview: [
-      'Forward Marketing aimed to become a leading industrial marketing agency, prompting a complete branding and website redesign.',
-      'A research-driven approach was undertaken by a team to address the challenges.'
-    ],
-    overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/fwd/fwd-home_thumb.jpg',
-    overviewCap: 'Forward Home Page - Landing',
-
-    // Method
-    method: [
-      'Identified that industrial companies seek reputable, cost-effective partners genuinely invested in their interests.',
-      'We styled the brand and web content to directly address these key needs.'
-    ],
-    methodImg:
-    'https://davyjonesdesign.github.io/data-for-axios/assets/fwd/fwd-about.jpg',
-    methodCap: 'Forward About Page - Meet the Crew',
-
-    // Outcome
-    outcome: [
-      'While the project was ultimatelty abandoned due to unforeseen COVID-19 circumstances, I gained valuable insights and a strong foundation in full-scale design that I continue to carry forward into all my work.',
-      'Forward Creative Agency\'s brand and website would have been a strong contender in the industrial marketing market.'
-    ],
-    outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/fwd/fwd-blog-single.jpg',
-    outcomeCap: 'Forward Blog Page - Single'
-  },
-
-  // Sanlo App
-  {
-    alias: 'sanlo',
-    title: 'Sanlo Brand + Web',
-    subtitle:
-      'A full rebrand and website redesign for an industrial cable manufacturing company',
-    duration: 'Fall 2019',
-
-    // tags
-    tag: [
-      'UX/UI',
-      'Brand'
-    ],
-
-    // main img
-    mainImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/sanlo/sanlo-mockup-23.jpg',
-    mainCap: 'Sanlo website redesign mockup on laptop with floating screens',
-
-    // objectives
-    objectives: [
-      'Design a website that communicates expertise',
-      'Provide a user-friendly experience',
-      'Align the website with the company\'s brand identity'
-    ],
-
-    // toolbox
-    tools: [
-      'Adobe Photoshop',
-      'Adobe Illustrator',
-      'InVision'
-    ],
-
-    // Overview
-    overview: [
-      'Design a website that communicates expertise, provides a user-friendly experience, and aligns with the company\'s brand identity.',
-      'A research-driven approach was undertaken by a team to address the challenges.'
-    ],
-    overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/sanlo/home.jpg',
-    overviewCap: 'Sanlo Home Page - Landing',
-
-    // Method
-    method: [
-      'We went through a comprehensive design process, including research, competitive analysis, wireframing, prototypes, and user testing.',
-      'We developed a consistent brand identity and user-centered flows that increased conversion.'
-    ],
-    methodImg:
-    'https://davyjonesdesign.github.io/data-for-axios/assets/sanlo/icons-contact.jpg',
-    methodCap: 'Sanlo Home Page - Service Icon Section',
-
-    // Outcome
-    outcome: [
-      'The design successfully met audience needs, conveyed expertise, and maintained a cohesive brand identity, contributing positively to the company\'s performance.'
-    ],
-    outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/sanlo/form.jpg',
-    outcomeCap: 'Sanlo - Custom Quote Form Tool'
-  },
-
-  // NLN Application
-  {
-    alias: 'nln-application-transformation',
-    title: 'NLN Application Transformation',
-    subtitle:
-        'Crafting visually engaging 100-page NLN Center of Excellence applications for Purdue Northwest College of Nursing and Louisiana State University Health – New Orleans',
-    duration: 'Winter 2023',
-
-    // tags
-    tag: [
-      'Publication'
-    ],
-
-    // main img
-    mainImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/nln-app/PNW-app.jpg',
-    mainCap: 'PNW\'s NLN application pages including the title page, table of contents, criterion title page and internal pages',
-
-    // objectives
-    objectives: [
-      'Improve the readability and professionalism of the application after a previous failed attempt',
-      'Create a visually engaging document adhering to Purdue\'s branding guidelines',
-      'Communicate the story of the school effectively to demonstrate why it deserved the Center of Excellence designation'
-    ],
-
-    // links
-    links: [
-      {
-        link: 'https://indd.adobe.com/view/c54b6d93-81a4-4064-9c2f-db3f30b32db9',
-        linkDescription: 'Purdue Northwest Application (2023)'
-      },
-      {
-        link: 'https://indd.adobe.com/view/309b3709-289d-408a-aab5-88d81e108b0b',
-        linkDescription: 'LSU Health New Orleans Application (2024)'
-      }
-    ],
-
-    // toolbox
-    tools: [
-      'Adobe InDesign',
-      'Adobe Photoshop'
-    ],
-
-    // Overview
-    overview: [
-      'In early 2023, I collaborated with Purdue Northwest College of Nursing to revamp their NLN Center of Excellence application, addressing readability and professionalism issues. Adhering to Purdue\'s branding, we meticulously redesigned each aspect of the 100-page document for visual appeal and clarity.',
-      'Through a cycle of design and feedback, we effectively communicated Purdue\'s commitment to nursing excellence, resulting in a successful application and earning the institution the Center of Excellence designation. This project highlights the transformative impact of collaborative design in showcasing institutional merit and driving real-world success.'
-    ],
-    overviewFrame: 'https://indd.adobe.com/embed/c54b6d93-81a4-4064-9c2f-db3f30b32db9?startpage=1&allowFullscreen=false',
-    overviewCap: 'PNW\'s full NLN application online publication',
-
-    // Method
-    method: [
-      'I dug into why their previous application failed. My design plan then reflected my finds, focusing on layout, readability, and overall appeal. I carefully chose typography to guarantee ease of readability and organized the content to seamlessly flow. Using Purdue\'s branding guidelines, I kept everything consistent and visually appealing.',
-      'Throughout the process, I listened to feedback from the Dean and faculty, making adjustments to ensure the application reflected Purdue\'s strengths. This collaborative effort resulted in a visually engaging document that effectively told Purdue\'s story and secured the Center of Excellence designation.'
-    ],
-    methodImg:
-          'https://davyjonesdesign.github.io/data-for-axios/assets/nln-app/PNW-app-2.jpg',
-    methodCap: 'More internal pages from PNW\'s NLN application',
-
-    // Outcome
-    outcome: [
-      'We finished the application well before the deadline, and the response from the Dean and faculty was overwhelmingly positive. Purdue proudly secured the NLN Center of Excellence designation as a result.',
-      'Building on this achievement, Purdue recommended my support to Louisiana State University - New Orleans. I led them through a similar process. Together, we crafted an application that showcased their strengths, further solidifying their pursuit of excellence. Their application is currently pending.'
-    ],
-    outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/nln-app/LSU-app.jpg',
-    outcomeCap: 'LSU Health New Orlean\'s NLN application completed April 2024'
-  },
-
-  // Caps
-  {
-    alias: 'Caps',
-    title: 'Caps Magazine',
-    subtitle: 'The Trusted Mushroom Source - final project for Typography',
-    duration: 'Winter 2022',
-    //
-    // tags
-    tag: [
-      'Publication',
-      'Brand',
-      'Illustration'
-    ],
-    //
-    // main img
-    mainImg:
-      'https://davyjonesdesign.github.io/data-for-axios/assets/caps-magazine/magazine-mockup.jpg',
-    mainCap: [
-      "For my final project in a Master's Typography course, I designed a magazine from scratch"
-    ],
-    //
-    // objectives
-    objectives: [
-      'Design a premium, earthy and vintage magazine to be published on a quarterly basis',
-      'The magazine would be all things mushrooms for amateur and seasoned mushroom enthusiasts throughout the US'
-    ],
-    //
-    // links
-    links: [
-      {
-        link: 'https://indd.adobe.com/embed/85283b4a-ccfd-4901-81c5-e139d23fa37f?startpage=1&allowFullscreen=true',
-        linkDescription: 'Caps - Digital Version'
-      }
-    ],
-    //
-    // toolbox
-    tools: [
-      'Adobe InDesign',
-      'Adobe Illustrator'
-    ],
-    //
-    // overview
-    overview: [
-      'Caps Magazine is my premium publication catering to mushroom enthusiasts. The magazine needed to embody a sense of trustworthiness while maintaining a connection to the natural world and a vintage aesthetic.'
-    ],
-    overviewFrame:
-      'https://indd.adobe.com/embed/85283b4a-ccfd-4901-81c5-e139d23fa37f?startpage=1&allowFullscreen=true',
-    overviewCap: 'Caps Mushroom Magazine - Digital Version',
-    //
-    // research
-    method: [
-      'I started by creating a moodboard where I compiled a few visual and contextual touchpoints I wanted to keep in scope. After iterating a masthead, I began developing the front cover, table of contents, centerspread, and style guide.',
-      'After many rounds of peer reviews, I finalized all assets and mocked up a printed version.'
-    ],
-    methodImg:
-      'https://davyjonesdesign.github.io/data-for-axios/assets/caps-magazine/magazine-styleguide.jpg',
-    methodCap: 'Caps Mushroom Magazine - Style Guide',
-    //
-    // Outcome
-    outcome: [
-      'The magazine brand and layout exceeded expectations, meeting my initial desires for the magazine to feel natural, earthy and whimsical with a flavor of vintage.'
-    ],
-    outcomeImg:
-      'https://davyjonesdesign.github.io/data-for-axios/assets/caps-magazine/magazine-centerspread.jpg',
-    outcomeCap: 'Caps Mushroom Magazine - Centerspread'
   }
+
+  // // Forward App
+  // {
+  //   alias: 'forward',
+  //   title: 'Forward Brand/Web',
+  //   subtitle:
+  //       'A full brand and website design for an industrial marketing agency',
+  //   duration: 'Spring 2020',
+
+  //   // tags
+  //   tag: [
+  //     'UX/UI',
+  //     'Brand'
+  //   ],
+
+  //   // main img
+  //   mainImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/fwd/forward-splash.jpg',
+  //   mainCap: 'Forward marketing agency web design mockups on laptop and laid out on desk',
+
+  //   // objectives
+  //   objectives: [
+  //     'Create a market-leading brand and website',
+  //     'Fulfill the growing industrial marketing needs',
+  //     'Emphasize expertise and proven methods for increasing organic traffic'
+  //   ],
+
+  //   // toolbox
+  //   tools: [
+  //     'Adobe Photoshop',
+  //     'Adobe Illustrator',
+  //     'InVision'
+  //   ],
+
+  //   // Overview
+  //   overview: [
+  //     'Forward Marketing aimed to become a leading industrial marketing agency, prompting a complete branding and website redesign.',
+  //     'A research-driven approach was undertaken by a team to address the challenges.'
+  //   ],
+  //   overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/fwd/fwd-home_thumb.jpg',
+  //   overviewCap: 'Forward Home Page - Landing',
+
+  //   // Method
+  //   method: [
+  //     'Identified that industrial companies seek reputable, cost-effective partners genuinely invested in their interests.',
+  //     'We styled the brand and web content to directly address these key needs.'
+  //   ],
+  //   methodImg:
+  //   'https://davyjonesdesign.github.io/data-for-axios/assets/fwd/fwd-about.jpg',
+  //   methodCap: 'Forward About Page - Meet the Crew',
+
+  //   // Outcome
+  //   outcome: [
+  //     'While the project was ultimatelty abandoned due to unforeseen COVID-19 circumstances, I gained valuable insights and a strong foundation in full-scale design that I continue to carry forward into all my work.',
+  //     'Forward Creative Agency\'s brand and website would have been a strong contender in the industrial marketing market.'
+  //   ],
+  //   outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/fwd/fwd-blog-single.jpg',
+  //   outcomeCap: 'Forward Blog Page - Single'
+  // },
+
+  // // Sanlo App
+  // {
+  //   alias: 'sanlo',
+  //   title: 'Sanlo Brand + Web',
+  //   subtitle:
+  //     'A full rebrand and website redesign for an industrial cable manufacturing company',
+  //   duration: 'Fall 2019',
+
+  //   // tags
+  //   tag: [
+  //     'UX/UI',
+  //     'Brand'
+  //   ],
+
+  //   // main img
+  //   mainImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/sanlo/sanlo-mockup-23.jpg',
+  //   mainCap: 'Sanlo website redesign mockup on laptop with floating screens',
+
+  //   // objectives
+  //   objectives: [
+  //     'Design a website that communicates expertise',
+  //     'Provide a user-friendly experience',
+  //     'Align the website with the company\'s brand identity'
+  //   ],
+
+  //   // toolbox
+  //   tools: [
+  //     'Adobe Photoshop',
+  //     'Adobe Illustrator',
+  //     'InVision'
+  //   ],
+
+  //   // Overview
+  //   overview: [
+  //     'Design a website that communicates expertise, provides a user-friendly experience, and aligns with the company\'s brand identity.',
+  //     'A research-driven approach was undertaken by a team to address the challenges.'
+  //   ],
+  //   overviewImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/sanlo/home.jpg',
+  //   overviewCap: 'Sanlo Home Page - Landing',
+
+  //   // Method
+  //   method: [
+  //     'We went through a comprehensive design process, including research, competitive analysis, wireframing, prototypes, and user testing.',
+  //     'We developed a consistent brand identity and user-centered flows that increased conversion.'
+  //   ],
+  //   methodImg:
+  //   'https://davyjonesdesign.github.io/data-for-axios/assets/sanlo/icons-contact.jpg',
+  //   methodCap: 'Sanlo Home Page - Service Icon Section',
+
+  //   // Outcome
+  //   outcome: [
+  //     'The design successfully met audience needs, conveyed expertise, and maintained a cohesive brand identity, contributing positively to the company\'s performance.'
+  //   ],
+  //   outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/sanlo/form.jpg',
+  //   outcomeCap: 'Sanlo - Custom Quote Form Tool'
+  // }
+
+  // // NLN Application
+  // {
+  //   alias: 'nln-application-transformation',
+  //   title: 'NLN Application Transformation',
+  //   subtitle:
+  //       'Crafting visually engaging 100-page NLN Center of Excellence applications for Purdue Northwest College of Nursing and Louisiana State University Health – New Orleans',
+  //   duration: 'Winter 2023',
+
+  //   // tags
+  //   tag: [
+  //     'Publication'
+  //   ],
+
+  //   // main img
+  //   mainImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/nln-app/PNW-app.jpg',
+  //   mainCap: 'PNW\'s NLN application pages including the title page, table of contents, criterion title page and internal pages',
+
+  //   // objectives
+  //   objectives: [
+  //     'Improve the readability and professionalism of the application after a previous failed attempt',
+  //     'Create a visually engaging document adhering to Purdue\'s branding guidelines',
+  //     'Communicate the story of the school effectively to demonstrate why it deserved the Center of Excellence designation'
+  //   ],
+
+  //   // links
+  //   links: [
+  //     {
+  //       link: 'https://indd.adobe.com/view/c54b6d93-81a4-4064-9c2f-db3f30b32db9',
+  //       linkDescription: 'Purdue Northwest Application (2023)'
+  //     },
+  //     {
+  //       link: 'https://indd.adobe.com/view/309b3709-289d-408a-aab5-88d81e108b0b',
+  //       linkDescription: 'LSU Health New Orleans Application (2024)'
+  //     }
+  //   ],
+
+  //   // toolbox
+  //   tools: [
+  //     'Adobe InDesign',
+  //     'Adobe Photoshop'
+  //   ],
+
+  //   // Overview
+  //   overview: [
+  //     'In early 2023, I collaborated with Purdue Northwest College of Nursing to revamp their NLN Center of Excellence application, addressing readability and professionalism issues. Adhering to Purdue\'s branding, we meticulously redesigned each aspect of the 100-page document for visual appeal and clarity.',
+  //     'Through a cycle of design and feedback, we effectively communicated Purdue\'s commitment to nursing excellence, resulting in a successful application and earning the institution the Center of Excellence designation. This project highlights the transformative impact of collaborative design in showcasing institutional merit and driving real-world success.'
+  //   ],
+  //   overviewFrame: 'https://indd.adobe.com/embed/c54b6d93-81a4-4064-9c2f-db3f30b32db9?startpage=1&allowFullscreen=false',
+  //   overviewCap: 'PNW\'s full NLN application online publication',
+
+  //   // Method
+  //   method: [
+  //     'I dug into why their previous application failed. My design plan then reflected my finds, focusing on layout, readability, and overall appeal. I carefully chose typography to guarantee ease of readability and organized the content to seamlessly flow. Using Purdue\'s branding guidelines, I kept everything consistent and visually appealing.',
+  //     'Throughout the process, I listened to feedback from the Dean and faculty, making adjustments to ensure the application reflected Purdue\'s strengths. This collaborative effort resulted in a visually engaging document that effectively told Purdue\'s story and secured the Center of Excellence designation.'
+  //   ],
+  //   methodImg:
+  //         'https://davyjonesdesign.github.io/data-for-axios/assets/nln-app/PNW-app-2.jpg',
+  //   methodCap: 'More internal pages from PNW\'s NLN application',
+
+  //   // Outcome
+  //   outcome: [
+  //     'We finished the application well before the deadline, and the response from the Dean and faculty was overwhelmingly positive. Purdue proudly secured the NLN Center of Excellence designation as a result.',
+  //     'Building on this achievement, Purdue recommended my support to Louisiana State University - New Orleans. I led them through a similar process. Together, we crafted an application that showcased their strengths, further solidifying their pursuit of excellence. Their application is currently pending.'
+  //   ],
+  //   outcomeImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/nln-app/LSU-app.jpg',
+  //   outcomeCap: 'LSU Health New Orlean\'s NLN application completed April 2024'
+  // },
+
+  // // Caps
+  // {
+  //   alias: 'Caps',
+  //   title: 'Caps Magazine',
+  //   subtitle: 'The Trusted Mushroom Source - final project for Typography',
+  //   duration: 'Winter 2022',
+  //   //
+  //   // tags
+  //   tag: [
+  //     'Publication',
+  //     'Brand',
+  //     'Illustration'
+  //   ],
+  //   //
+  //   // main img
+  //   mainImg:
+  //     'https://davyjonesdesign.github.io/data-for-axios/assets/caps-magazine/magazine-mockup.jpg',
+  //   mainCap: [
+  //     "For my final project in a Master's Typography course, I designed a magazine from scratch"
+  //   ],
+  //   //
+  //   // objectives
+  //   objectives: [
+  //     'Design a premium, earthy and vintage magazine to be published on a quarterly basis',
+  //     'The magazine would be all things mushrooms for amateur and seasoned mushroom enthusiasts throughout the US'
+  //   ],
+  //   //
+  //   // links
+  //   links: [
+  //     {
+  //       link: 'https://indd.adobe.com/embed/85283b4a-ccfd-4901-81c5-e139d23fa37f?startpage=1&allowFullscreen=true',
+  //       linkDescription: 'Caps - Digital Version'
+  //     }
+  //   ],
+  //   //
+  //   // toolbox
+  //   tools: [
+  //     'Adobe InDesign',
+  //     'Adobe Illustrator'
+  //   ],
+  //   //
+  //   // overview
+  //   overview: [
+  //     'Caps Magazine is my premium publication catering to mushroom enthusiasts. The magazine needed to embody a sense of trustworthiness while maintaining a connection to the natural world and a vintage aesthetic.'
+  //   ],
+  //   overviewFrame:
+  //     'https://indd.adobe.com/embed/85283b4a-ccfd-4901-81c5-e139d23fa37f?startpage=1&allowFullscreen=true',
+  //   overviewCap: 'Caps Mushroom Magazine - Digital Version',
+  //   //
+  //   // research
+  //   method: [
+  //     'I started by creating a moodboard where I compiled a few visual and contextual touchpoints I wanted to keep in scope. After iterating a masthead, I began developing the front cover, table of contents, centerspread, and style guide.',
+  //     'After many rounds of peer reviews, I finalized all assets and mocked up a printed version.'
+  //   ],
+  //   methodImg:
+  //     'https://davyjonesdesign.github.io/data-for-axios/assets/caps-magazine/magazine-styleguide.jpg',
+  //   methodCap: 'Caps Mushroom Magazine - Style Guide',
+  //   //
+  //   // Outcome
+  //   outcome: [
+  //     'The magazine brand and layout exceeded expectations, meeting my initial desires for the magazine to feel natural, earthy and whimsical with a flavor of vintage.'
+  //   ],
+  //   outcomeImg:
+  //     'https://davyjonesdesign.github.io/data-for-axios/assets/caps-magazine/magazine-centerspread.jpg',
+  //   outcomeCap: 'Caps Mushroom Magazine - Centerspread'
+  // }
 
   // // Breakfast mural
   // {
