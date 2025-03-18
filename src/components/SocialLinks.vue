@@ -21,7 +21,7 @@ export default {
 
 <template>
     <div class="social-links">
-        <text-link url="https://www.linkedin.com/in/davyjonesdesign/" :show-icon="true"
+        <text-link url="https://www.linkedin.com/in/davyjonesme/" :show-icon="true"
             :icon="LinkedIcon"></text-link>
         <text-link url="https://github.com/davyjonesdesign" :show-icon="true" :icon="GitIcon"></text-link>
     </div>
