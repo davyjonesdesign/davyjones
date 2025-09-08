@@ -12,7 +12,7 @@ const routes = [
     name: 'home',
     component: HomeView,
     meta: {
-      requiresAuth: true
+      requiresAuth: false
     }
   },
   {
@@ -20,7 +20,7 @@ const routes = [
     name: 'ProjectPage',
     component: () => import('../components/ProjectPage.vue'),
     meta: {
-      requiresAuth: true
+      requiresAuth: false
     }
   },
   {
@@ -33,7 +33,7 @@ const routes = [
       return import(/* webpackChunkName: 'about' */ '../views/ResumeView.vue')
     },
     meta: {
-      requiresAuth: true
+      requiresAuth: false
     }
   },
   {
