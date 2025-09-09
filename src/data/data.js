@@ -4,7 +4,7 @@ const data = [
     alias: 'wheels-paper',
     title: 'Wheels React Native Paper Design System',
     subtitle:
-        'Translating the Wheels design system into a framework-specific system to guide the redesign of the driver experience app and maintain consistency across mobile applications.',
+      'Translating the Wheels design system into a framework-specific system to guide the redesign of the driver experience app and maintain consistency across mobile applications.',
     duration: 'Summer - Fall 2024',
 
     // tags
@@ -52,7 +52,7 @@ const data = [
       'Throughout the process, I documented guidelines and specifications in Frontify to align stakeholders, including product owners and developers, ensuring the emerging design system became a reliable point of truth.'
     ],
     methodImg:
-          'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/paper-compare.jpg?raw=true',
+      'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/paper-compare.jpg?raw=true',
     methodCap: 'A comparison showing evolution from the base system to the React Native Paper-specific system',
 
     // Outcome
@@ -63,80 +63,144 @@ const data = [
     outcomeCap: 'Example of Paper (mobile) object guidelines from the Frontify documentation detailing the horizontal card component'
   },
 
-  // Wheels KendoReact
+  // Wheels KendoReact Recruiter-facing Case Study
   {
     alias: 'wheels-kendo',
     title: 'Wheels KendoReact Design System',
     subtitle:
-        'Adapted the Wheels design system to KendoReact, enabling seamless application to the Renewals web app and future web-based projects.',
+      'Led the creation of a scalable design system in Figma + KendoReact, unifying three companies’ products under one framework and accelerating development velocity.',
     duration: 'Summer - Fall 2024',
 
-    // tags
+
     tag: [
       'Wheels',
+      'Design System',
       'React'
     ],
 
-    // main img
+
     mainImg: 'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/kendo-ren2.gif?raw=true',
-    mainCap: 'Gif showing prototype of Renewals application details page',
+    mainCap: 'Prototype of the Renewals application details page built with the Kendo design system.',
 
-    // objectives
-    objectives: [
-      'Align the Wheels design system with KendoReact components for consistent web app UI.',
-      'Enhance UX across web applications with scalable design patterns',
-      'Support the Renewals web app as the first project under the unified design system'
-    ],
 
-    // links
-    links: [
-      {
-        link: 'https://www.telerik.com/kendo-react-ui',
-        linkDescription: 'Kendo React UI'
-      },
-      {
-        link: 'https://www.telerik.com/themebuilder',
-        linkDescription: 'Kendo React ThemeBuilder'
-      }
-    ],
-
-    // toolbox
     tools: [
       'Figma',
       'KendoReact Components',
-      'Kendo ThemeBuilder'
+      'Kendo ThemeBuilder',
+      'Frontify'
     ],
 
-    // Overview
-    overview: [
-      'As Wheels moved to standardize its web application UI, the decision to use KendoReact offered an opportunity to align the design system with this framework. I led the adaptation process, ensuring the system supported KendoReact\'s components and styling capabilities while maintaining brand consistency.'
-    ],
+
+    // Recruiter-facing structure
+    challenge:
+      'After Wheels merged three companies, each had different design languages and technologies, creating inconsistency and slowing development. To unify the brand and accelerate delivery, a scalable design system aligned with KendoReact was needed.',
     overviewImg:
     'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/kendo-buttons.jpg?raw=true',
     overviewCap: 'Screenshot of a tailored Kendo Design System components (buttons and other controls)',
 
-    // Method
-    method: [
-      'The process began by forking the original design system to align with KendoReact’s component structures. I redefined styles and layouts to fit the framework, testing designs within the ThemeBuilder tool to ensure compatibility and responsiveness. Collaboration with other UX designers and developers was critical to validate the system’s performance in production environments.',
-      'I also prioritized accessibility and led thorough audits to maintain alignment with WCAG standards. All guidelines and updates were documented in Frontify, creating a resource for designers and developers working on the Renewals web app and future projects.'
+    myRole: [
+      'Design System Lead overseeing 3–4 designers and working closely with the UI development principal.',
+      'Owned the system structure, tokens, and Figma guidelines, ensuring 1:1 parity between Figma, ThemeBuilder, and Storybook.',
+      'Acted as the bridge between design and engineering, troubleshooting discrepancies and fostering stronger collaboration.'
     ],
     methodImg: 'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/kendo-tb.jpg?raw=true',
     methodCap: 'Screenshot of Kendo ThemeBuilder main components',
 
-    // Outcome
-    outcome: [
-      'The KendoReact design system successfully enhanced UX across the Renewals web app, improving workflows for renewal processing. It has since become the cornerstone for web application development at Wheels, streamlining design-to-development processes and establishing a unified, scalable approach for future projects.'
+
+    process: [
+      'Forked the foundational Wheels design system to align with KendoReact components.',
+      'Implemented 60+ components and a feature-rich data grid using ThemeBuilder.',
+      'Conducted accessibility audits to maintain WCAG compliance.',
+      'Documented guidelines and updates in Frontify for cross-team adoption.',
+      'Established governance and contribution models for scalable growth.'
     ],
+
     outcomeImg: 'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/kendo-doc.jpg?raw=true',
-    outcomeCap: 'Example of Kendo object guidelines from the Frontify documentation detailing the checkbox component'
+    outcomeCap: 'Example of Kendo object guidelines from the Frontify documentation detailing the checkbox component',
+
+
+    impact: [
+      'Accelerated development velocity—engineers shipped new UI features significantly faster.',
+      'Unified product experience across Renewals, FleetView, and DriverView with one consistent system.',
+      'Improved designer–developer collaboration with clear parity across Figma, ThemeBuilder, and Storybook.',
+      'Elevated the design system into a strategic enabler of Wheels’ digital transformation.'
+    ]
   },
+
+  // Wheels KendoReact
+  // {
+  //   alias: 'wheels-kendo',
+  //   title: 'Wheels KendoReact Design System',
+  //   subtitle:
+  //       'Adapted the Wheels design system to KendoReact, enabling seamless application to the Renewals web app and future web-based projects.',
+  //   duration: 'Summer - Fall 2024',
+
+  //   // tags
+  //   tag: [
+  //     'Wheels',
+  //     'React'
+  //   ],
+
+  //   // main img
+  //   mainImg: 'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/kendo-ren2.gif?raw=true',
+  //   mainCap: 'Gif showing prototype of Renewals application details page',
+
+  //   // objectives
+  //   objectives: [
+  //     'Align the Wheels design system with KendoReact components for consistent web app UI.',
+  //     'Enhance UX across web applications with scalable design patterns',
+  //     'Support the Renewals web app as the first project under the unified design system'
+  //   ],
+
+  //   // links
+  //   links: [
+  //     {
+  //       link: 'https://www.telerik.com/kendo-react-ui',
+  //       linkDescription: 'Kendo React UI'
+  //     },
+  //     {
+  //       link: 'https://www.telerik.com/themebuilder',
+  //       linkDescription: 'Kendo React ThemeBuilder'
+  //     }
+  //   ],
+
+  //   // toolbox
+  //   tools: [
+  //     'Figma',
+  //     'KendoReact Components',
+  //     'Kendo ThemeBuilder'
+  //   ],
+
+  //   // Overview
+  //   overview: [
+  //     'As Wheels moved to standardize its web application UI, the decision to use KendoReact offered an opportunity to align the design system with this framework. I led the adaptation process, ensuring the system supported KendoReact\'s components and styling capabilities while maintaining brand consistency.'
+  //   ],
+  //   overviewImg:
+  //   'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/kendo-buttons.jpg?raw=true',
+  //   overviewCap: 'Screenshot of a tailored Kendo Design System components (buttons and other controls)',
+
+  //   // Method
+  //   method: [
+  //     'The process began by forking the original design system to align with KendoReact’s component structures. I redefined styles and layouts to fit the framework, testing designs within the ThemeBuilder tool to ensure compatibility and responsiveness. Collaboration with other UX designers and developers was critical to validate the system’s performance in production environments.',
+  //     'I also prioritized accessibility and led thorough audits to maintain alignment with WCAG standards. All guidelines and updates were documented in Frontify, creating a resource for designers and developers working on the Renewals web app and future projects.'
+  //   ],
+  //   methodImg: 'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/kendo-tb.jpg?raw=true',
+  //   methodCap: 'Screenshot of Kendo ThemeBuilder main components',
+
+  //   // Outcome
+  //   outcome: [
+  //     'The KendoReact design system successfully enhanced UX across the Renewals web app, improving workflows for renewal processing. It has since become the cornerstone for web application development at Wheels, streamlining design-to-development processes and establishing a unified, scalable approach for future projects.'
+  //   ],
+  //   outcomeImg: 'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/kendo-doc.jpg?raw=true',
+  //   outcomeCap: 'Example of Kendo object guidelines from the Frontify documentation detailing the checkbox component'
+  // },
 
   // Wheels Assets
   {
     alias: 'wheels-assets',
     title: 'Wheels Asset Libraries',
     subtitle:
-        'Developed dedicated Figma asset libraries for icons and vehicle images to ensure consistency, scalability, and seamless integration into Wheels’ larger design systems.',
+      'Developed dedicated Figma asset libraries for icons and vehicle images to ensure consistency, scalability, and seamless integration into Wheels’ larger design systems.',
     duration: 'Summer 2024',
 
     // tags
@@ -176,7 +240,7 @@ const data = [
       'Both libraries included naming conventions and constraints to simplify use and avoid misapplication. Guidelines were documented to provide clear instructions for designers and developers.'
     ],
     methodImg:
-          'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/wass-grid-cards.jpg?raw=true',
+      'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/wass-grid-cards.jpg?raw=true',
     methodCap: 'Screenshot of a data grid or card component with integrated icons and vehicle images',
 
     // Outcome
@@ -192,7 +256,7 @@ const data = [
     alias: 'wheels-base',
     title: 'Wheels Design System 1.0',
     subtitle:
-        'Developed an initial design system encompassing Figma colors, styles, components, and patterns to align with the Wheels rebrand and guide future design efforts.',
+      'Developed an initial design system encompassing Figma colors, styles, components, and patterns to align with the Wheels rebrand and guide future design efforts.',
     duration: 'Winter 2024',
 
     // tags
@@ -231,7 +295,7 @@ const data = [
       'Despite the challenges of working without a defined framework, this foundational design system served as an essential blueprint for future implementations with technologies like KendoReact and React Native Paper.'
     ],
     methodImg:
-          'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/whds-controls.jpg?raw=true',
+      'https://github.com/davyjonesdesign/data-for-axios/blob/main/assets/whds-controls.jpg?raw=true',
     methodCap: 'Screenshots of foundational components and patterns.',
 
     // Outcome
@@ -247,7 +311,7 @@ const data = [
     alias: 'wiki-ui',
     title: 'Wikipedia.org UX/UI Redesign',
     subtitle:
-        'A private hobby project that involved revamping Wikipedia.org\'s mobile interface to a more user-centric experience, and emphasizing improved accessibility through strategic design choices. Ongoing efforts focus on iterative enhancements based on user feedback.',
+      'A private hobby project that involved revamping Wikipedia.org\'s mobile interface to a more user-centric experience, and emphasizing improved accessibility through strategic design choices. Ongoing efforts focus on iterative enhancements based on user feedback.',
     duration: 'Winter 2023',
 
     // tags
@@ -302,7 +366,7 @@ const data = [
       'The color palette, tailored for both light and dark modes, ensures a clear and consistent user experience. I prioritized readability and comfort. I aimed to enhance the usability of Wikipedia.org while preserving its familiar functionality.'
     ],
     methodFrame:
-          'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FjsPEUc856jJXDK2ZiRyuWX%2FwikiUI%3Ftype%3Ddesign%26node-id%3D29%253A1017%26mode%3Ddesign%26t%3DZyLXBVIa3RZY5iUs-1',
+      'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FjsPEUc856jJXDK2ZiRyuWX%2FwikiUI%3Ftype%3Ddesign%26node-id%3D29%253A1017%26mode%3Ddesign%26t%3DZyLXBVIa3RZY5iUs-1',
     methodCap: 'The emerging Figma design system - \'WikiUI\'',
 
     // Outcome
@@ -319,7 +383,7 @@ const data = [
     alias: 'streamline-app',
     title: 'Streamline App',
     subtitle:
-        'A video streaming platform that consolidates content from various streaming apps, solving the problem of fragmented content and redundant payments.',
+      'A video streaming platform that consolidates content from various streaming apps, solving the problem of fragmented content and redundant payments.',
     duration: 'Spring 2023',
 
     // tags
@@ -370,7 +434,7 @@ const data = [
       'I focused on addressing users\' primary context for streaming on mobile devices by sketching mobile app interfaces. Mapping user flows helped visualize and define user journey requirements, while iterative design cycles in Figma allowed me to refine the user interface and experience.'
     ],
     methodImg:
-          'https://davyjonesdesign.github.io/data-for-axios/assets/streamline/streamline-userflow.jpg',
+      'https://davyjonesdesign.github.io/data-for-axios/assets/streamline/streamline-userflow.jpg',
     methodCap: 'The final user flow mapped out during project which helped define requirements',
 
     // Outcome
@@ -387,7 +451,7 @@ const data = [
     alias: 'written-in-stone',
     title: 'Written in Stone App',
     subtitle:
-        'Empowering readers with an interactive map to independently explore biblical contexts, fostering a deeper and nuanced interpretation of the text.',
+      'Empowering readers with an interactive map to independently explore biblical contexts, fostering a deeper and nuanced interpretation of the text.',
     duration: 'Summer 2023',
 
     // tags
@@ -460,7 +524,7 @@ const data = [
       'Experts and potential users guided improvements with their feedback. This iterative process refined functionality and interface, ensuring accessibility for all.'
     ],
     methodFrame:
-          'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxLh7aq2HW1eUzrIFbNJlph%2FWIS_final%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D225-2746%26viewport%3D163%252C591%252C0.21%26t%3DzUxShCSIaIMP4QbO-1%26scaling%3Dscale-down-width%26starting-point-node-id%3D225%253A2746%26mode%3Ddesign',
+      'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxLh7aq2HW1eUzrIFbNJlph%2FWIS_final%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D225-2746%26viewport%3D163%252C591%252C0.21%26t%3DzUxShCSIaIMP4QbO-1%26scaling%3Dscale-down-width%26starting-point-node-id%3D225%253A2746%26mode%3Ddesign',
     methodCap: 'Written in Stone Current Prototype',
     //
     // Outcome
@@ -543,7 +607,7 @@ const data = [
       'Utilizing material design principles I created a clean and modern design system in Figma, emphasizing efficiency and simplicity.'
     ],
     methodImg:
-    'https://davyjonesdesign.github.io/data-for-axios/assets/portfolio-redesign/home-screenshot.jpg',
+      'https://davyjonesdesign.github.io/data-for-axios/assets/portfolio-redesign/home-screenshot.jpg',
     methodCap: 'Redesigned home page',
 
     // Outcome
@@ -560,7 +624,7 @@ const data = [
     alias: 'watermark-app',
     title: 'Watermark App',
     subtitle:
-        'I was recruited by a Bible study teacher to build a website for the content he created for his class. Building a Bible Study Web App with Vue Framework, I created a dynamic platform for modern users, ensuring accessibility across devices and seamless integration into daily life.',
+      'I was recruited by a Bible study teacher to build a website for the content he created for his class. Building a Bible Study Web App with Vue Framework, I created a dynamic platform for modern users, ensuring accessibility across devices and seamless integration into daily life.',
     duration: 'Spring 2021',
 
     // tags
@@ -616,7 +680,7 @@ const data = [
       'I delved into a comprehensive branding process, aligning the app\'s visual identity with its purpose. This involved categorizing and organizing data to ensure a simple user experience. Through meticulous layout planning, I optimized the app\'s structure for intuitive navigation and smooth performance across devices.'
     ],
     methodImg:
-    'https://davyjonesdesign.github.io/data-for-axios/assets/watermark/resources.jpg',
+      'https://davyjonesdesign.github.io/data-for-axios/assets/watermark/resources.jpg',
     methodCap: 'The resource page showing utilized resources and the studies they were used for',
 
     // Outcome

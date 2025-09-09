@@ -123,8 +123,13 @@
             h3 {
                 min-width: 115px;
             }
-            p {
+            p, ul {
                 margin-top: var(--xxs);
+                li {
+                    margin-bottom: var(--sm);
+                }
+            } ul {
+                margin-bottom: 0;
             }
         }
         .data-visual img, .data-visual iframe {

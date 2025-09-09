@@ -80,8 +80,8 @@ export default {
 
             
     
-        <!-- data cards -->
-        <div class="dataCards-section">
+        <!-- objectives -->
+        <div v-if="project.objectives" class="dataCards-section">
             <div class="dataCard" id="objectives">
                 <div class="dataCard-title">
                     <h3>Objectives</h3>
@@ -108,7 +108,7 @@ export default {
             </div>
             <div class="dataCard" id="toolbox">
                 <div class="dataCard-title">
-                    <h3>Toolbox</h3>
+                    <h3>Tools</h3>
                 </div>
                 <p 
                     v-for="tool in project.tools" 
@@ -118,10 +118,10 @@ export default {
         </div>
 
         <!-- overview -->
-        <div class="data-section">
+        <div v-if="project.overview" class="data-section">
             <div class="data-wrap">
                 <div class="data-content">
-                    <h3>Overview</h3>
+                    <h3 >Overview</h3>
                     <div class="copy-wrapper">
                         <p v-for="project in project.overview" :key="project">{{ project }}</p>
                     </div>
@@ -139,10 +139,10 @@ export default {
                     <p>{{ project.overviewCap }}</p>
                 </div>
             </div>
-        </div>
+        </div> 
 
         <!-- method & approach -->
-        <div class="data-section">
+        <div v-if="project.method" class="data-section">
             <div class="data-wrap">
                 <div class="data-content">
                     <h3>Method</h3>
@@ -166,7 +166,7 @@ export default {
         </div>
 
         <!-- outcome -->
-        <div class="data-section">
+        <div class="data-section" v-if="project.outcome">
             <div class="data-wrap">
                 <div class="data-content">
                     <h3>Outcome</h3>
@@ -185,6 +185,100 @@ export default {
                     ></iframe>
                     
                     <p>{{ project.outcomeCap }}</p>
+                </div>
+            </div>
+        </div>
+
+<!-- NET NEW -->
+        <!-- challenge -->
+        <div v-if="project.challenge" class="dataCards-section">
+            <div class="dataCard" id="objectives">
+                <div class="dataCard-title">
+                    <h3>Challenge</h3>
+                </div>
+                <p>{{ project.challenge }}</p>
+            </div>
+            <div class="dataCard" id="links" v-if="project.links">
+                <div class="dataCard-title">
+                    <h3>Project Links</h3>
+                </div>
+                <text-link
+                    v-for="(link, index) in project.links"
+                    :key="index"
+                    :url=link.link
+                    class="project-links-link"
+                    v-bind:text="link.linkDescription"  
+                    :show-icon="true"
+                    :icon="LinkIcon">
+                </text-link>
+            </div>
+            <div class="dataCard" id="toolbox">
+                <div class="dataCard-title">
+                    <h3>Tools</h3>
+                </div>
+                <p 
+                    v-for="tool in project.tools" 
+                    :key="tool">{{ tool }}</p>
+            </div>
+                
+        </div>
+
+        <!-- my role -->
+        <div v-if="project.myRole" class="data-section">
+            <div class="data-wrap">
+                <div class="data-content">
+                    <h3>My Role</h3>
+                    <ul class="copy-wrapper">
+                        <li v-for="project in project.myRole" :key="project">{{ project }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- process -->
+        <div v-if="project.process" class="data-section">
+            <div class="data-wrap">
+                <div class="data-content">
+                    <h3>Process</h3>
+                    <ul class="copy-wrapper">
+                        <li v-for="project in project.process" :key="project">{{ project }}</li>
+                    </ul>
+                </div>
+                <div class="data-visual">
+                    <img 
+                    v-bind:alt="project.overviewCap" v-if="project.overviewImg" 
+                    :src="project.overviewImg" />
+                    <iframe
+                        v-if="project.overviewFrame"
+                        :src="project.overviewFrame"
+                        allowfullscreen
+                    ></iframe>
+                    
+                    <p>{{ project.overviewCap }}</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- impact -->
+        <div v-if="project.impact" class="data-section">
+            <div class="data-wrap">
+                <div class="data-content">
+                    <h3>Impact</h3>
+                    <ul v-if="project.impact" class="copy-wrapper">
+                        <li v-for="project in project.impact" :key="project">{{ project }}</li>
+                    </ul>
+                </div>
+                <div class="data-visual">
+                    <img
+                    v-bind:alt="project.methodCap" v-if="project.methodImg" 
+                    :src="project.methodImg" />
+                    <iframe
+                        v-if="project.methodFrame"
+                        :src="project.methodFrame"
+                        allowfullscreen
+                    ></iframe>
+                    
+                    <p>{{ project.methodCap }}</p>
                 </div>
             </div>
         </div>
